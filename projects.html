@@ -1,0 +1,1472 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+>
+
+<title>
+Projects | Elephant Gypsum Pvt. Ltd.
+</title>
+
+<meta
+    name="description"
+    content="125+ projects supplied by Elephant Gypsum for leading Indian builder groups including Lodha, Godrej, Adani, Kalpataru and Prestige."
+>
+
+<link
+    rel="preconnect"
+    href="https://fonts.googleapis.com"
+>
+
+<link
+    rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin
+>
+
+<link
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap"
+    rel="stylesheet"
+>
+
+<link
+    rel="stylesheet"
+    href="style.css"
+>
+
+
+<style>
+
+/* =========================================================
+   PROJECT FILTER FIX
+   ========================================================= */
+
+.project-filter-section {
+    padding-top: 70px;
+    padding-bottom: 90px;
+}
+
+
+/* FILTER AREA */
+
+.project-filter-area {
+    margin-bottom: 45px;
+}
+
+
+/* FILTER BUTTON CONTAINER */
+
+.project-filter-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+
+    margin-top: 28px;
+}
+
+
+/* FILTER BUTTON */
+
+.project-filter-button {
+
+    appearance: none;
+
+    border: 1px solid rgba(250,247,242,.18);
+
+    background: transparent;
+
+    color: #c8c9cc;
+
+    padding: 11px 21px;
+
+    border-radius: 30px;
+
+    font-family: "Inter", sans-serif;
+
+    font-size: 15px;
+
+    line-height: 1.2;
+
+    cursor: pointer;
+
+    transition:
+        background .2s ease,
+        color .2s ease,
+        border-color .2s ease,
+        transform .2s ease;
+
+}
+
+
+.project-filter-button:hover {
+
+    border-color: #f28c28;
+
+    color: #ffffff;
+
+    transform: translateY(-1px);
+
+}
+
+
+.project-filter-button.active {
+
+    background: #f28c28;
+
+    border-color: #f28c28;
+
+    color: #1b1d20;
+
+}
+
+
+/* TABLE WRAPPER */
+
+.project-table-wrapper {
+
+    width: 100%;
+
+    overflow-x: auto;
+
+    -webkit-overflow-scrolling: touch;
+
+    border-radius: 4px;
+}
+
+
+/* TABLE */
+
+.project-table {
+
+    width: 100%;
+
+    min-width: 760px;
+
+    border-collapse: collapse;
+
+    border-spacing: 0;
+
+}
+
+
+/* TABLE HEADER */
+
+.project-table thead th {
+
+    background: #25282c;
+
+    color: #f28c28;
+
+    font-family: "IBM Plex Mono", monospace;
+
+    font-size: 12px;
+
+    font-weight: 500;
+
+    letter-spacing: 1px;
+
+    text-transform: uppercase;
+
+    text-align: left;
+
+    padding: 16px 18px;
+
+    border-bottom: 1px solid rgba(250,247,242,.15);
+
+}
+
+
+/* TABLE BODY */
+
+.project-table tbody td {
+
+    padding: 16px 18px;
+
+    color: #c8c9cc;
+
+    font-family: "Inter", sans-serif;
+
+    font-size: 15px;
+
+    line-height: 1.45;
+
+    border-bottom: 1px solid rgba(250,247,242,.09);
+
+    background: #1d1f22;
+
+}
+
+
+/* ROW HOVER */
+
+.project-table tbody tr:hover td {
+
+    background: #24272b;
+
+}
+
+
+/* SERIAL NUMBER */
+
+.project-table tbody td:first-child {
+
+    width: 80px;
+
+    color: #f28c28;
+
+    font-family: "IBM Plex Mono", monospace;
+
+    font-size: 13px;
+
+}
+
+
+/* BUILDER */
+
+.project-table tbody td:nth-child(2) {
+
+    color: #ffffff;
+
+    font-weight: 600;
+
+}
+
+
+/* PROJECT */
+
+.project-table tbody td:nth-child(3) {
+
+    color: #f2f2f2;
+
+}
+
+
+/* EMPTY MESSAGE */
+
+.no-projects {
+
+    display: none;
+
+    padding: 50px 20px;
+
+    text-align: center;
+
+    color: #a9abb0;
+
+    font-family: "Inter", sans-serif;
+
+    font-size: 16px;
+
+}
+
+
+/* FILTER RESULT */
+
+.filter-result {
+
+    margin-top: 20px;
+
+    color: rgba(250,247,242,.55);
+
+    font-family: "IBM Plex Mono", monospace;
+
+    font-size: 12px;
+
+    letter-spacing: .5px;
+
+}
+
+
+/* =========================================================
+   MOBILE
+   ========================================================= */
+
+@media (max-width: 700px) {
+
+    .project-filter-section {
+
+        padding-top: 50px;
+
+        padding-bottom: 60px;
+
+    }
+
+
+    .project-filter-buttons {
+
+        gap: 9px;
+
+    }
+
+
+    .project-filter-button {
+
+        padding: 9px 15px;
+
+        font-size: 13px;
+
+    }
+
+
+    .project-table {
+
+        min-width: 700px;
+
+    }
+
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+
+<!-- =========================================================
+     HEADER
+     ========================================================= -->
+
+<header id="siteHeader">
+
+    <div class="wrap nav-inner">
+
+
+        <a
+            href="index.html"
+            class="logo"
+        >
+
+            <img
+                src="assets/img/logo.png"
+                alt="Elephant Gypsum Logo"
+                class="logo-mark"
+            >
+
+            <span>
+
+                Elephant Gypsum
+
+                <small>
+                    Pvt. Ltd.
+                </small>
+
+            </span>
+
+        </a>
+
+
+        <nav class="links">
+
+            <a href="about.html">
+                About
+            </a>
+
+            <a href="products.html">
+                Products
+            </a>
+
+            <a href="applications.html">
+                Applications
+            </a>
+
+            <a href="why-us.html">
+                Why Us
+            </a>
+
+            <a href="certifications.html">
+                Certifications
+            </a>
+
+            <a
+                href="projects.html"
+                class="active"
+            >
+                Projects
+            </a>
+
+            <a href="contact.html">
+                Contact
+            </a>
+
+        </nav>
+
+
+        <a
+            href="contact.html"
+            class="nav-cta"
+        >
+            Get a Quote
+        </a>
+
+
+        <button
+            class="hamburger"
+            id="hamburger"
+            aria-label="Menu"
+        >
+
+            <span></span>
+            <span></span>
+            <span></span>
+
+        </button>
+
+    </div>
+
+</header>
+
+
+<!-- =========================================================
+     MOBILE MENU
+     ========================================================= -->
+
+<div
+    class="mobile-menu"
+    id="mobileMenu"
+>
+
+    <a href="about.html">
+        About
+    </a>
+
+    <a href="products.html">
+        Products
+    </a>
+
+    <a href="applications.html">
+        Applications
+    </a>
+
+    <a href="why-us.html">
+        Why Us
+    </a>
+
+    <a href="certifications.html">
+        Certifications
+    </a>
+
+    <a href="projects.html">
+        Projects
+    </a>
+
+    <a href="contact.html">
+        Contact
+    </a>
+
+</div>
+
+
+<!-- =========================================================
+     PAGE HERO
+     ========================================================= -->
+
+<section class="page-hero">
+
+    <img
+        src="assets/img/elephant-line.png"
+        alt=""
+        class="elephant-motif"
+        aria-hidden="true"
+    >
+
+
+    <div class="wrap">
+
+        <div class="crumb">
+
+            <a href="index.html">
+                Home
+            </a>
+
+            /
+
+            Projects
+
+        </div>
+
+
+        <h1>
+            125+ projects, 25+ builder partners
+        </h1>
+
+
+        <p>
+            A full record of the developments
+            Elephant Gypsum plaster and bonding
+            systems have been supplied to,
+            across Mumbai, Thane and Pune.
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     STAT BAND
+     ========================================================= -->
+
+<div class="stat-band">
+
+    <div class="wrap">
+
+        <div>
+
+            <div class="num">
+                125
+            </div>
+
+            <div class="label">
+                Total Projects
+            </div>
+
+        </div>
+
+
+        <div>
+
+            <div class="num">
+                28
+            </div>
+
+            <div class="label">
+                Builder Groups
+            </div>
+
+        </div>
+
+
+        <div>
+
+            <div class="num">
+                3
+            </div>
+
+            <div class="label">
+                Metro Regions
+            </div>
+
+        </div>
+
+
+        <div>
+
+            <div class="num">
+                100%
+            </div>
+
+            <div class="label">
+                ISO-Certified Supply
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<!-- =========================================================
+     PROJECT FILTER SECTION
+     ========================================================= -->
+
+<section class="clients project-filter-section">
+
+    <div class="wrap">
+
+
+        <div class="section-head">
+
+            <div>
+
+                <h2>
+                    Filter by builder
+                </h2>
+
+
+                <p
+                    class="section-sub"
+                    style="color:rgba(250,247,242,.6);"
+                >
+                    Click a builder group to filter
+                    the project list below.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- FILTER BUTTONS -->
+
+        <div
+            class="project-filter-area"
+            id="projectFilterButtons"
+        >
+
+            <div class="project-filter-buttons">
+
+
+                <button
+                    type="button"
+                    class="project-filter-button active"
+                    data-builder="ALL"
+                >
+                    All (125)
+                </button>
+
+
+                <button
+                    type="button"
+                    class="project-filter-button"
+                    data-builder="Lodha Group"
+                >
+                    Lodha Group (19)
+                </button>
+
+
+                <button
+                    type="button"
+                    class="project-filter-button"
+                    data-builder="Ruparel Group"
+                >
+                    Ruparel Group (19)
+                </button>
+
+
+                <button
+                    type="button"
+                    class="project-filter-button"
+                    data-builder="Kalpataru Group"
+                >
+                    Kalpataru Group (15)
+                </button>
+
+
+                <button
+                    type="button"
+                    class="project-filter-button"
+                    data-builder="Shapoorji"
+                >
+                    Shapoorji (7)
+                </button>
+
+
+                <button
+                    type="button"
+                    class="project-filter-button"
+                    data-builder="VTP Realty"
+                >
+                    VTP Realty (6)
+                </button>
+
+
+                <button
+                    type="button"
+                    class="project-filter-button"
+                    data-builder="Dosti Group"
+                >
+                    Dosti Group (6)
+                </button>
+
+
+                <button
+                    type="button"
+                    class="project-filter-button"
+                    data-builder="Puranik Group"
+                >
+                    Puranik Group (6)
+                </button>
+
+
+                <button
+                    type="button"
+                    class="project-filter-button"
+                    data-builder="Kanakia Group"
+                >
+                    Kanakia Group (5)
+                </button>
+
+
+                <button
+                    type="button"
+                    class="project-filter-button"
+                    data-builder="Vilas Javdekar Developers"
+                >
+                    Vilas Javdekar Developers (4)
+                </button>
+
+
+                <button
+                    type="button"
+                    class="project-filter-button"
+                    data-builder="Paranjape"
+                >
+                    Paranjape (4)
+                </button>
+
+
+                <button
+                    type="button"
+                    class="project-filter-button"
+                    data-builder="Puneet Group"
+                >
+                    Puneet Group (4)
+                </button>
+
+
+                <button
+                    type="button"
+                    class="project-filter-button"
+                    data-builder="JVM Group"
+                >
+                    JVM Group (4)
+                </button>
+
+            </div>
+
+
+            <div
+                class="filter-result"
+                id="filterResult"
+            >
+                Showing 125 projects
+            </div>
+
+        </div>
+
+
+        <!-- =====================================================
+             PROJECT TABLE
+             ===================================================== -->
+
+        <div class="project-table-wrapper">
+
+            <table class="project-table">
+
+                <thead>
+
+                    <tr>
+
+                        <th>
+                            Sr. No.
+                        </th>
+
+                        <th>
+                            Builder
+                        </th>
+
+                        <th>
+                            Project
+                        </th>
+
+                        <th>
+                            Location
+                        </th>
+
+                    </tr>
+
+                </thead>
+
+
+                <tbody id="projectTableBody">
+                </tbody>
+
+            </table>
+
+
+            <div
+                class="no-projects"
+                id="noProjects"
+            >
+                No projects found for this builder.
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     CTA
+     ========================================================= -->
+
+<section style="padding-bottom:70px;">
+
+    <div
+        class="wrap"
+        style="text-align:center;"
+    >
+
+        <h2 style="margin-bottom:18px;">
+            Bring Elephant Gypsum to your next project
+        </h2>
+
+
+        <p
+            class="section-sub"
+            style="
+                margin:0 auto 28px;
+                text-align:center;
+            "
+        >
+            Join 25+ builder groups who trust
+            our ISO-certified plaster and
+            bonding systems.
+        </p>
+
+
+        <a
+            href="contact.html"
+            class="btn btn-primary"
+        >
+            Request a Quote →
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     FOOTER
+     ========================================================= -->
+
+<footer>
+
+    <div class="wrap">
+
+        <div class="footer-grid">
+
+
+            <div>
+
+                <div class="flogo">
+
+                    <img
+                        src="assets/img/logo.png"
+                        alt="Elephant Gypsum Logo"
+                        class="logo-mark"
+                    >
+
+                    Elephant Gypsum
+
+                </div>
+
+
+                <p class="desc">
+
+                    ISO 9001 &amp; 14001 certified
+                    manufacturer of gypsum plaster
+                    and bonding agents, supplied to
+                    125+ landmark developments
+                    across India.
+
+                </p>
+
+            </div>
+
+
+            <div>
+
+                <h4>
+                    Company
+                </h4>
+
+
+                <ul>
+
+                    <li>
+                        <a href="about.html">
+                            About Us
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="applications.html">
+                            Applications
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="certifications.html">
+                            Certifications
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="projects.html">
+                            Projects
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="contact.html">
+                            Contact
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+            <div>
+
+                <h4>
+                    Products
+                </h4>
+
+
+                <ul>
+
+                    <li>
+                        <a href="products.html">
+                            Single Coat N1
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="products.html">
+                            Single Coat N1 Plus
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="products.html">
+                            Single Coat Unique N2
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="products.html">
+                            EGP Bond Plus
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+            <div>
+
+                <h4>
+                    Contact
+                </h4>
+
+
+                <ul>
+
+                    <li>
+                        +91 90046 53752
+                    </li>
+
+                    <li>
+                        elephantgypproduct@ymail.com
+                    </li>
+
+                    <li>
+                        Thane (W), Maharashtra
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <span>
+                © 2026 Elephant Gypsum Pvt. Ltd.
+                All rights reserved.
+            </span>
+
+
+            <span>
+                Privacy Policy · Terms of Service
+            </span>
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+<!-- =========================================================
+     FLOATING BUTTONS
+     ========================================================= -->
+
+<div class="float-btns">
+
+    <a
+        class="fbtn wa"
+        href="https://wa.me/919004653752"
+        target="_blank"
+        aria-label="WhatsApp"
+    >
+        ✆
+    </a>
+
+
+    <button
+        class="fbtn top"
+        id="topBtn"
+        aria-label="Back to top"
+    >
+        ↑
+    </button>
+
+</div>
+
+
+<!-- =========================================================
+     PROJECT DATA + FILTER
+     ========================================================= -->
+
+<script>
+
+/*
+=============================================================
+PROJECT DATA
+=============================================================
+
+The original page contains 125 projects.
+The same project information is used here,
+but the table is generated by JavaScript.
+
+This prevents the old filter code from hiding
+the table accidentally.
+*/
+
+
+const projects = [
+
+    /* 01 - 19 */
+
+    ["Lodha Group","Lodha Upper Thane Township","Anjur, Thane"],
+    ["Lodha Group","Lodha Amara Township","Kolshet, Thane"],
+    ["Lodha Group","Lodha Premier & Palava Township","Dombivli, Thane"],
+    ["Lodha Group","Lodha Luxuria Township","Balkum, Thane West"],
+    ["Lodha Group","Lodha Splendora Township","Bhayanderpada, Thane"],
+    ["Lodha Group","Lodha Acenza","Andheri East, Mumbai"],
+    ["Lodha Group","Lodha Bella Vita","Kondawan Pune"],
+    ["Lodha Group","Lodha Bellavista","Manpada, Thane (W)"],
+    ["Lodha Group","Lodha Belmondo","Gahunje, Pune"],
+    ["Lodha Group","Lodha Casa Evergreen","Vikhroli West, Mumbai"],
+    ["Lodha Group","Lodha Eternis","Andheri East, Mumbai"],
+    ["Lodha Group","Lodha Giardino","Kharadi, Pune"],
+    ["Lodha Group","Lodha Kenspeckle","Andheri East, Mumbai"],
+    ["Lodha Group","Lodha Panache","Pimpri-Chinchwad"],
+    ["Lodha Group","Lodha Regalia","Mulund, Mumbai"],
+    ["Lodha Group","Lodha Vista","Lower Parel, Mumbai"],
+    ["Lodha Group","Lodha Woods","Kandivali East, Mumbai"],
+    ["Lodha Group","Lodha Bellissimo","Mahalakshmi, Mumbai"],
+    ["Lodha Group","Lodha Imperia","Bhandup West, Mumbai"],
+
+
+    /* 20 - 26 */
+
+    ["Prestige Group","Prestige City Mulund Township","Mulund West, Mumbai"],
+    ["Prestige Group","Prestige Jasdan Classic","Byculla, Mumbai"],
+
+    ["Godrej Properties","Godrej Centre","Koregaon Park Annexe, Pune"],
+    ["Godrej Properties","Godrej Park Springs","Manjari Khurd, Pune"],
+    ["Godrej Properties","Godrej City Panvel Township","Panvel"],
+
+    ["Adani Group","Vitthal Rukhmani Redevelopment Project","Andheri West, Mumbai"],
+    ["Adani Group","Adani The Views","Ghatkopar, Mumbai"],
+
+
+    /* 27 - 41 */
+
+    ["Kalpataru Group","Kalpataru Paramount","Kapurbadi, Thane"],
+    ["Kalpataru Group","Kalpataru Advay","Borivali West, Mumbai"],
+    ["Kalpataru Group","Kalpataru Aria","Khopoli"],
+    ["Kalpataru Group","Kalpataru Bliss","Santacruz East, Mumbai"],
+    ["Kalpataru Group","Kalpataru Park City Township","Kolshet, Thane"],
+    ["Kalpataru Group","Kalpataru Exquisite","Wakad, Pune"],
+    ["Kalpataru Group","Kalpataru Magnus","Bandra East, Mumbai"],
+    ["Kalpataru Group","Kalpataru Radiance","Goregaon West, Mumbai"],
+    ["Kalpataru Group","Kalpataru Srishti Namah","MiraRoad, Mumbai"],
+    ["Kalpataru Group","Kalpataru Vienta","Kandivali East, Mumbai"],
+    ["Kalpataru Group","Kalpataru Garden Project","Kandivali (E)"],
+    ["Kalpataru Group","Kalpataru Riverside Project","Panvel"],
+    ["Kalpataru Group","Kalpataru Hills","Tikujiniwadi Thane (W)"],
+    ["Kalpataru Group","Kalpataru MIG","Bandra (East)"],
+    ["Kalpataru Group","Kalptaru Primus","Santacruz (East)"],
+
+
+    /* 42 - 50 */
+
+    ["Amanora","Amanora Park Township","Hadapsar, Pune"],
+    ["Amanora","City Rise By Amanora","Kothrud, Pune"],
+
+    ["Pride Purple Group","Pride Park Astra","Marunje Pune"],
+    ["Pride Purple Group","Pride Park Titan","Marunje Pune"],
+
+    ["Nanded City","Nanded City Township","Nanded, Pune"],
+    ["Nanded City","RiverView City Township","Pune"],
+
+    ["Runwal Group","Runwal Pinnacle","Bhandup West, 400078"],
+
+    ["JP Infra Group","JP Dream Homes","Mira Road East, Mumbai"],
+    ["JP Infra Group","North Imperial Greens","Thane West"],
+
+
+    /* 51 - 65 */
+
+    ["Shapoorji","Joyville Hadapsar Annexe Township","Manjari Pune"],
+    ["Shapoorji","Joyville Hinjewadi Township","Hanijewadi, Pune"],
+    ["Shapoorji","SD Corp Project","Kandivali East, Mumbai"],
+    ["Shapoorji","SP residency","Phursungi, Pune"],
+    ["Shapoorji","SP Yahavi Vahana","Bavdhan, Pune"],
+    ["Shapoorji","Shapoorji Pallonji Vicinia","Chandiwali, Mumbai"],
+    ["Shapoorji","Epic centre by Canvas Residences","Sewri, Mumbai"],
+
+    ["Piramal Group","Piramal Vaikunth","Balkum, Thane West"],
+
+    ["Raheja Group","Raheja District","Navi Mumbai"],
+
+    ["VTP Realty","VTP Blue Waters","Mahlunge, Pune"],
+    ["VTP Realty","VTP Pegasus","Manjari Khurd Kharadi, Pune"],
+    ["VTP Realty","VTP Aethereus","Mahlunge, Pune"],
+    ["VTP Realty","VTP Cygnus","Manjari Khurd Kharadi, Pune"],
+    ["VTP Realty","VTP Solitaire Baner pune","Baner, pune"],
+    ["VTP Realty","VTP VERVE","Pune"],
+
+
+    /* 66 - 75 */
+
+    ["Vilas Javdekar Developers","K44 Palladio Kharadi Central","Kharadi, Pune"],
+    ["Vilas Javdekar Developers","Yahwin Enchante","Wagholi, Pune"],
+    ["Vilas Javdekar Developers","YashONE INFINITEE","Hinjwadi pune"],
+    ["Vilas Javdekar Developers","VJ Indilife Kharadi","Kharadi Pune"],
+
+    ["Paranjape","Paranjape Forest Trails","Bhugaon, Pune"],
+    ["Paranjape","Paranjape Orion","Hinjwadi pune"],
+    ["Paranjape","Paranjape Trident Towers","Pimpri-Chinchwad"],
+    ["Paranjape","Blue Ridge – The groves","Pimpri-Chinchwad"],
+
+    ["Siddha Group","Siddha Seabrook","Kandivali West, Mumbai"],
+    ["Siddha Group","Siddha Sky","Wadala, Mumbai"],
+
+
+    /* 76 - 90 */
+
+    ["Dosti Group","Dosti West County","Balkum, Thane West"],
+    ["Dosti Group","Dosti Eden","Bramhand, Thane West"],
+    ["Dosti Group","Dosti Greater Thane","Bhiwandi, Thane"],
+    ["Dosti Group","Dosti Greenscapes","Hadapsar, Pune"],
+    ["Dosti Group","Dosti Mezzo-22","Sion East, Mumbai"],
+    ["Dosti Group","Dosti Planet North","Mumbra Thane"],
+
+    ["Peninsula Land","Address One","Gahunje, Pune"],
+
+    ["Kabra Group","Kabra Embraze","Ghatkopar, Mumbai"],
+    ["Kabra Group","Kabra Tiara","Goregaon West, Mumbai"],
+
+    ["PWD & L&T construction","Manora Amdar Niwas Redevelopment","Nariman Point, Mumbai"],
+
+    ["MayFair Group","Mayfair Virar Gardens","Virar"],
+
+    ["Puneet Group","Puneet Shivalaya","Vikhroli East, Mumbai"],
+    ["Puneet Group","Puneet Brahmand","Vikhroli East, Mumbai"],
+    ["Puneet Group","Puneet Kalpavriksha","Kurla East, Mumbai"],
+    ["Puneet Group","Puneet Prime","Kurla East, Mumbai"],
+
+
+    /* 91 - 96 */
+
+    ["Puranik Group","Puranik City","Kasarwadavli, Thane"],
+    ["Puranik Group","Puranik Grand central","Thane West"],
+    ["Puranik Group","Puranik Rumah Bali","Thane West"],
+    ["Puranik Group","Puranik Tokyo Bay","Thane West"],
+    ["Puranik Group","Puranik Unicorn","Thane West"],
+    ["Puranik Group","Puranik Mirai","Thane West"],
+
+
+    /* 97 - 115 */
+
+    ["Ruparel Group","Ruparel Ariana","Parel, Mumbai"],
+    ["Ruparel Group","Ruparel Celestia","Mulund East, Mumbai"],
+    ["Ruparel Group","Ruparel Crest","Kurla, Mumbai"],
+    ["Ruparel Group","Ruparel Elavia","Dadar East, Mumbai"],
+    ["Ruparel Group","Ruparel Iris","Matunga West, Mumbai"],
+    ["Ruparel Group","Ruparel Jewel","Parel, Mumbai"],
+    ["Ruparel Group","Ruparel Livia","Kurla, Mumbai"],
+    ["Ruparel Group","Ruparel Millennia","Parel, Mumbai"],
+    ["Ruparel Group","Ruparel Optima","Kandivali West, Mumbai"],
+    ["Ruparel Group","Ruparel Orion","Chembur (East), Mumbai"],
+    ["Ruparel Group","Ruparel Panache","Santacruz (West), Mumbai"],
+    ["Ruparel Group","Ruparel Premia","Mulund West, Mumbai"],
+    ["Ruparel Group","Ruparel Pristine","Ghatkopar East, Mumbai"],
+    ["Ruparel Group","Ruparel Regalia","Sion East, Mumbai"],
+    ["Ruparel Group","Ruparel Skygreens","Kandivali West, Mumbai"],
+    ["Ruparel Group","Ruparel Urbana","Kurla, Mumbai"],
+    ["Ruparel Group","Ruparel Vivanza","Byculla-East, Mumbai"],
+    ["Ruparel Group","Ruparel Westsky","Kandivali West, Mumbai"],
+    ["Ruparel Group","Ruparel Zinnia","Borivali West, Mumbai"],
+
+
+    /* 116 - 125 */
+
+    ["SUGEE Group","Sugee Vayu Mulund","Mulund West, Mumbai"],
+
+    ["JVM Group","JVM Accord GB rd thane","Thane West"],
+    ["JVM Group","JVM Clermont","Mulund West, Mumbai"],
+    ["JVM Group","JVM Monica Garden","Mulund West, Mumbai"],
+    ["JVM Group","JVM Spectrum LLP","Thane West"],
+
+    ["Kanakia Group","Kanakia Future City","Powai, Mumbai"],
+    ["Kanakia Group","Kanakia Beverly Heights","Mira Bhayandar, Mumbai"],
+    ["Kanakia Group","Kankia Levels","Malad East, Mumbai"],
+    ["Kanakia Group","Kankia Rainforest","Andheri East, Mumbai"],
+    ["Kanakia Group","Kanakia Paris","BKC, Mumbai"]
+
+];
+
+
+/* =========================================================
+   CREATE TABLE
+   ========================================================= */
+
+const tableBody =
+    document.getElementById("projectTableBody");
+
+const filterResult =
+    document.getElementById("filterResult");
+
+const noProjects =
+    document.getElementById("noProjects");
+
+
+function renderProjects(builder = "ALL") {
+
+    tableBody.innerHTML = "";
+
+
+    let visibleCount = 0;
+
+
+    projects.forEach(function(project, index) {
+
+        const projectBuilder = project[0];
+
+        const projectName = project[1];
+
+        const location = project[2];
+
+
+        const shouldShow =
+            builder === "ALL" ||
+            projectBuilder === builder;
+
+
+        if (!shouldShow) {
+            return;
+        }
+
+
+        visibleCount++;
+
+
+        const row =
+            document.createElement("tr");
+
+
+        row.innerHTML = `
+
+            <td>
+                ${index + 1}
+            </td>
+
+            <td>
+                ${projectBuilder}
+            </td>
+
+            <td>
+                ${projectName}
+            </td>
+
+            <td>
+                ${location}
+            </td>
+
+        `;
+
+
+        tableBody.appendChild(row);
+
+    });
+
+
+    /* RESULT COUNT */
+
+    if (builder === "ALL") {
+
+        filterResult.textContent =
+            "Showing 125 projects";
+
+    } else {
+
+        filterResult.textContent =
+            "Showing " +
+            visibleCount +
+            " projects for " +
+            builder;
+
+    }
+
+
+    /* NO RESULT */
+
+    if (visibleCount === 0) {
+
+        noProjects.style.display =
+            "block";
+
+    } else {
+
+        noProjects.style.display =
+            "none";
+
+    }
+
+}
+
+
+/* =========================================================
+   FILTER BUTTONS
+   ========================================================= */
+
+const filterButtons =
+    document.querySelectorAll(
+        ".project-filter-button"
+    );
+
+
+filterButtons.forEach(function(button) {
+
+    button.addEventListener(
+        "click",
+        function() {
+
+
+            /* REMOVE ACTIVE */
+
+            filterButtons.forEach(
+                function(btn) {
+
+                    btn.classList.remove(
+                        "active"
+                    );
+
+                }
+            );
+
+
+            /* ADD ACTIVE */
+
+            this.classList.add(
+                "active"
+            );
+
+
+            /* GET BUILDER */
+
+            const builder =
+                this.getAttribute(
+                    "data-builder"
+                );
+
+
+            /* FILTER */
+
+            renderProjects(builder);
+
+
+            /* SCROLL TO TABLE */
+
+            setTimeout(function() {
+
+                const table =
+                    document.querySelector(
+                        ".project-table-wrapper"
+                    );
+
+                if (table) {
+
+                    table.scrollIntoView({
+                        behavior: "smooth",
+                        block: "start"
+                    });
+
+                }
+
+            }, 100);
+
+        }
+    );
+
+});
+
+
+/* =========================================================
+   INITIAL LOAD
+   ========================================================= */
+
+document.addEventListener(
+    "DOMContentLoaded",
+    function() {
+
+        renderProjects("ALL");
+
+    }
+);
+
+
+/*
+=============================================================
+IMPORTANT
+=============================================================
+
+The table is rendered immediately.
+
+It does NOT use:
+    .reveal
+    .filter-bar
+    .proj-row
+    main.js filtering
+
+Therefore the old filter system cannot hide the table.
+=============================================================
+*/
+
+</script>
+
+
+<!-- =========================================================
+     MAIN JS
+     ========================================================= -->
+
+<script src="main.js"></script>
+
+
+</body>
+
+</html>

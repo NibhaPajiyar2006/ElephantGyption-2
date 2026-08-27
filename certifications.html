@@ -1,0 +1,1315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Certifications | Elephant Gypsum Pvt. Ltd.</title>
+
+    <meta
+        name="description"
+        content="Elephant Gypsum is ISO 9001:2015 and ISO 14001:2015 certified by QRO Certification LLP for gypsum plaster and bonding agent manufacturing."
+    >
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css">
+
+
+    <!-- =====================================================
+         CERTIFICATIONS PAGE ONLY CSS
+         ===================================================== -->
+
+    <style>
+
+        /* =====================================================
+           CERTIFICATION MEANING SECTION
+           ===================================================== */
+
+        .cert-meaning-section {
+            width: 100%;
+            padding: 80px 0 100px;
+            background: #faf7f2;
+            box-sizing: border-box;
+        }
+
+
+        /* =====================================================
+           HEADING
+           ===================================================== */
+
+        .cert-meaning-heading {
+            width: 100%;
+            max-width: 900px;
+            margin: 0 auto 50px;
+            text-align: center;
+            box-sizing: border-box;
+        }
+
+
+        .cert-meaning-heading h2 {
+            margin: 0 0 18px;
+
+            color: #20242a;
+
+            font-family: "Space Grotesk", sans-serif;
+
+            font-size: 38px;
+            font-weight: 600;
+
+            line-height: 1.2;
+
+            letter-spacing: -0.7px;
+        }
+
+
+        .cert-meaning-heading p {
+            max-width: 720px;
+
+            margin: 0 auto;
+
+            color: #667180;
+
+            font-family: "Inter", sans-serif;
+
+            font-size: 17px;
+
+            line-height: 1.65;
+        }
+
+
+        /* =====================================================
+           GRID
+           ===================================================== */
+
+        .cert-meaning-grid {
+            width: 100%;
+
+            display: grid;
+
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+
+            gap: 30px;
+
+            align-items: stretch;
+
+            box-sizing: border-box;
+        }
+
+
+        /* =====================================================
+           CARD
+           ===================================================== */
+
+        .cert-meaning-card {
+            width: 100%;
+            min-width: 0;
+
+            min-height: 300px;
+
+            display: flex;
+            flex-direction: column;
+
+            box-sizing: border-box;
+
+            background: #faf8f4;
+
+            border: 1px solid #ddd5ca;
+
+            border-radius: 7px;
+
+            overflow: hidden;
+
+            transition:
+                transform 0.25s ease,
+                box-shadow 0.25s ease,
+                border-color 0.25s ease;
+        }
+
+
+        .cert-meaning-card:hover {
+            transform: translateY(-3px);
+
+            border-color: #d2c4b4;
+
+            box-shadow:
+                0 16px 35px rgba(40, 30, 20, 0.08);
+        }
+
+
+        /* =====================================================
+           TAG
+           ===================================================== */
+
+        .cert-meaning-tag {
+            display: inline-flex;
+
+            align-items: center;
+
+            width: fit-content;
+
+            min-height: 36px;
+
+            padding: 8px 15px;
+
+            box-sizing: border-box;
+
+            background: #f8e9d7;
+
+            color: #ed7000;
+
+            border-radius: 0 22px 22px 0;
+
+            font-family: "IBM Plex Mono", monospace;
+
+            font-size: 13px;
+
+            font-weight: 500;
+
+            line-height: 1;
+
+            letter-spacing: 1.1px;
+
+            text-transform: uppercase;
+        }
+
+
+        /* =====================================================
+           CARD CONTENT
+           ===================================================== */
+
+        .cert-meaning-content {
+            flex: 1;
+
+            padding: 30px;
+
+            box-sizing: border-box;
+
+            display: flex;
+            flex-direction: column;
+        }
+
+
+        /* =====================================================
+           CARD TITLE
+           ===================================================== */
+
+        .cert-meaning-card h3 {
+            margin: 0 0 18px;
+
+            color: #20242a;
+
+            font-family: "Space Grotesk", sans-serif;
+
+            font-size: 30px;
+
+            font-weight: 600;
+
+            line-height: 1.22;
+
+            letter-spacing: -0.5px;
+        }
+
+
+        /* =====================================================
+           CARD TEXT
+           ===================================================== */
+
+        .cert-meaning-card p {
+            margin: 0;
+
+            color: #667180;
+
+            font-family: "Inter", sans-serif;
+
+            font-size: 17px;
+
+            font-weight: 400;
+
+            line-height: 1.65;
+        }
+
+
+        /* =====================================================
+           CERTIFICATE DETAILS SECTION
+           ===================================================== */
+
+        .certificate-list-section {
+            width: 100%;
+            padding-top: 70px;
+            padding-bottom: 30px;
+            box-sizing: border-box;
+        }
+
+
+        .certificate-grid {
+            width: 100%;
+
+            display: grid;
+
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+
+            gap: 30px;
+
+            align-items: start;
+        }
+
+
+        .certificate-grid .pd-block {
+            min-width: 0;
+        }
+
+
+        .certificate-grid .datasheet {
+            width: 100%;
+            max-width: 100%;
+        }
+
+
+        /* =====================================================
+           TABLET
+           ===================================================== */
+
+        @media (max-width: 900px) {
+
+            .cert-meaning-section {
+                padding: 65px 0 80px;
+            }
+
+            .cert-meaning-heading {
+                margin-bottom: 38px;
+            }
+
+            .cert-meaning-heading h2 {
+                font-size: 32px;
+            }
+
+            .cert-meaning-grid {
+                gap: 22px;
+            }
+
+            .cert-meaning-card {
+                min-height: 280px;
+            }
+
+            .cert-meaning-content {
+                padding: 25px;
+            }
+
+            .cert-meaning-card h3 {
+                font-size: 26px;
+            }
+
+            .cert-meaning-card p {
+                font-size: 16px;
+            }
+
+            .certificate-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+
+        /* =====================================================
+           MOBILE
+           ===================================================== */
+
+        @media (max-width: 650px) {
+
+            .cert-meaning-section {
+                padding: 50px 0 65px;
+            }
+
+            .cert-meaning-heading {
+                margin-bottom: 30px;
+            }
+
+            .cert-meaning-heading h2 {
+                font-size: 28px;
+            }
+
+            .cert-meaning-heading p {
+                font-size: 15px;
+            }
+
+            .cert-meaning-grid {
+                grid-template-columns: 1fr;
+                gap: 18px;
+            }
+
+            .cert-meaning-card {
+                min-height: auto;
+            }
+
+            .cert-meaning-content {
+                padding: 24px 20px;
+            }
+
+            .cert-meaning-card h3 {
+                margin-bottom: 14px;
+                font-size: 24px;
+            }
+
+            .cert-meaning-card p {
+                font-size: 15px;
+                line-height: 1.6;
+            }
+
+            .certificate-list-section {
+                padding-top: 50px;
+            }
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+<!-- =====================================================
+     HEADER
+     ===================================================== -->
+
+<header id="siteHeader">
+
+    <div class="wrap nav-inner">
+
+        <!-- LOGO -->
+
+        <a href="index.html" class="logo">
+
+            <img
+                src="assets/img/logo.png"
+                alt="Elephant Gypsum Logo"
+                class="logo-mark"
+            >
+
+            <span>
+                Elephant Gypsum
+                <small>Pvt. Ltd.</small>
+            </span>
+
+        </a>
+
+
+        <!-- DESKTOP NAVIGATION -->
+
+        <nav class="links">
+
+            <a href="about.html">
+                About
+            </a>
+
+            <a href="products.html">
+                Products
+            </a>
+
+            <a href="applications.html">
+                Applications
+            </a>
+
+            <a href="why-us.html">
+                Why Us
+            </a>
+
+            <a
+                href="certifications.html"
+                class="active"
+            >
+                Certifications
+            </a>
+
+            <a href="projects.html">
+                Projects
+            </a>
+
+            <a href="contact.html">
+                Contact
+            </a>
+
+        </nav>
+
+
+        <!-- QUOTE BUTTON -->
+
+        <a
+            href="contact.html"
+            class="nav-cta"
+        >
+            Get a Quote
+        </a>
+
+
+        <!-- MOBILE BUTTON -->
+
+        <button
+            class="hamburger"
+            id="hamburger"
+            aria-label="Menu"
+        >
+
+            <span></span>
+            <span></span>
+            <span></span>
+
+        </button>
+
+    </div>
+
+</header>
+
+
+<!-- =====================================================
+     MOBILE MENU
+     ===================================================== -->
+
+<div
+    class="mobile-menu"
+    id="mobileMenu"
+>
+
+    <a href="about.html">
+        About
+    </a>
+
+    <a href="products.html">
+        Products
+    </a>
+
+    <a href="applications.html">
+        Applications
+    </a>
+
+    <a href="why-us.html">
+        Why Us
+    </a>
+
+    <a href="certifications.html">
+        Certifications
+    </a>
+
+    <a href="projects.html">
+        Projects
+    </a>
+
+    <a href="contact.html">
+        Contact
+    </a>
+
+</div>
+
+
+<!-- =====================================================
+     PAGE HERO
+     ===================================================== -->
+
+<section class="page-hero">
+
+    <img
+        src="assets/img/elephant-line.png"
+        alt=""
+        class="elephant-motif"
+        aria-hidden="true"
+    >
+
+    <div class="wrap">
+
+        <div class="crumb">
+
+            <a href="index.html">
+                Home
+            </a>
+
+            /
+
+            Certifications
+
+        </div>
+
+
+        <h1>
+            Independently certified manufacturing
+        </h1>
+
+
+        <p>
+            Elephant Gypsum Private Limited is assessed
+            and registered by QRO Certification LLP,
+            a member of the International Accreditation
+            Forum (IAF).
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     CERTIFICATE DETAILS
+     ===================================================== -->
+
+<section class="certificate-list-section">
+
+    <div class="wrap">
+
+        <div
+            class="certificate-grid"
+            style="margin-bottom:50px;"
+        >
+
+
+            <!-- =================================================
+                 ISO 9001:2015
+                 ================================================= -->
+
+            <div
+                class="pd-block reveal"
+                style="margin-bottom:0;"
+            >
+
+                <div
+                    class="pd-head"
+                    style="
+                        flex-direction:column;
+                        align-items:flex-start;
+                    "
+                >
+
+                    <div
+                        class="cert-badge"
+                        style="margin-bottom:16px;"
+                    >
+                        ISO
+                        <br>
+                        9001
+                    </div>
+
+
+                    <h3>
+                        ISO 9001:2015
+                    </h3>
+
+
+                    <p>
+                        Quality Management System
+                    </p>
+
+                </div>
+
+
+                <div
+                    class="pd-body"
+                    style="grid-template-columns:1fr;"
+                >
+
+                    <div class="pd-col">
+
+                        <h5>
+                            Certificate Details
+                        </h5>
+
+
+                        <table class="datasheet">
+
+                            <tr>
+
+                                <td>
+                                    Certificate number
+                                </td>
+
+                                <td>
+                                    305026062615Q
+                                </td>
+
+                            </tr>
+
+
+                            <tr>
+
+                                <td>
+                                    Scope
+                                </td>
+
+                                <td>
+                                    Manufacturing of
+                                    high-quality gypsum
+                                    plaster &amp; bonding agent
+                                </td>
+
+                            </tr>
+
+
+                            <tr>
+
+                                <td>
+                                    Registered address
+                                </td>
+
+                                <td>
+                                    Office No. 504, B Wing,
+                                    Lodha Supremus II,
+                                    Road No. 22, Wagle Estate,
+                                    Thane – 400604
+                                </td>
+
+                            </tr>
+
+
+                            <tr>
+
+                                <td>
+                                    Factory address
+                                </td>
+
+                                <td>
+                                    Sarah Jodki,
+                                    Khari Charanan,
+                                    Sri Kolayat,
+                                    Bikaner – 334401,
+                                    Rajasthan
+                                </td>
+
+                            </tr>
+
+
+                            <tr>
+
+                                <td>
+                                    Date of certification
+                                </td>
+
+                                <td>
+                                    26 June 2026
+                                </td>
+
+                            </tr>
+
+
+                            <tr>
+
+                                <td>
+                                    1st surveillance audit due
+                                </td>
+
+                                <td>
+                                    25 June 2027
+                                </td>
+
+                            </tr>
+
+
+                            <tr>
+
+                                <td>
+                                    2nd surveillance audit due
+                                </td>
+
+                                <td>
+                                    25 June 2028
+                                </td>
+
+                            </tr>
+
+
+                            <tr>
+
+                                <td>
+                                    Certificate expiry
+                                </td>
+
+                                <td>
+                                    25 June 2029
+                                </td>
+
+                            </tr>
+
+
+                            <tr>
+
+                                <td>
+                                    Certifying body
+                                </td>
+
+                                <td>
+                                    QRO Certification LLP
+                                    (IAF member,
+                                    CAB #011905)
+                                </td>
+
+                            </tr>
+
+                        </table>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- =================================================
+                 ISO 14001:2015
+                 ================================================= -->
+
+            <div
+                class="pd-block reveal"
+                style="margin-bottom:0;"
+            >
+
+                <div
+                    class="pd-head"
+                    style="
+                        flex-direction:column;
+                        align-items:flex-start;
+                    "
+                >
+
+                    <div
+                        class="cert-badge"
+                        style="margin-bottom:16px;"
+                    >
+                        ISO
+                        <br>
+                        14001
+                    </div>
+
+
+                    <h3>
+                        ISO 14001:2015
+                    </h3>
+
+
+                    <p>
+                        Environmental Management System
+                    </p>
+
+                </div>
+
+
+                <div
+                    class="pd-body"
+                    style="grid-template-columns:1fr;"
+                >
+
+                    <div class="pd-col">
+
+                        <h5>
+                            Certificate Details
+                        </h5>
+
+
+                        <table class="datasheet">
+
+                            <tr>
+
+                                <td>
+                                    Certificate number
+                                </td>
+
+                                <td>
+                                    305026062616E
+                                </td>
+
+                            </tr>
+
+
+                            <tr>
+
+                                <td>
+                                    Scope
+                                </td>
+
+                                <td>
+                                    Manufacturing of
+                                    high-quality gypsum
+                                    plaster &amp; bonding agent
+                                </td>
+
+                            </tr>
+
+
+                            <tr>
+
+                                <td>
+                                    Registered address
+                                </td>
+
+                                <td>
+                                    Office No. 504, B Wing,
+                                    Lodha Supremus II,
+                                    Road No. 22, Wagle Estate,
+                                    Thane – 400604
+                                </td>
+
+                            </tr>
+
+
+                            <tr>
+
+                                <td>
+                                    Factory address
+                                </td>
+
+                                <td>
+                                    Sarah Jodki,
+                                    Khari Charanan,
+                                    Sri Kolayat,
+                                    Bikaner – 334401,
+                                    Rajasthan
+                                </td>
+
+                            </tr>
+
+
+                            <tr>
+
+                                <td>
+                                    Date of certification
+                                </td>
+
+                                <td>
+                                    26 June 2026
+                                </td>
+
+                            </tr>
+
+
+                            <tr>
+
+                                <td>
+                                    1st surveillance audit due
+                                </td>
+
+                                <td>
+                                    25 June 2027
+                                </td>
+
+                            </tr>
+
+
+                            <tr>
+
+                                <td>
+                                    2nd surveillance audit due
+                                </td>
+
+                                <td>
+                                    25 June 2028
+                                </td>
+
+                            </tr>
+
+
+                            <tr>
+
+                                <td>
+                                    Certificate expiry
+                                </td>
+
+                                <td>
+                                    25 June 2029
+                                </td>
+
+                            </tr>
+
+
+                            <tr>
+
+                                <td>
+                                    Certifying body
+                                </td>
+
+                                <td>
+                                    QRO Certification LLP
+                                    (IAF member,
+                                    CAB #011905)
+                                </td>
+
+                            </tr>
+
+                        </table>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     WHAT EACH STANDARD MEANS
+     ===================================================== -->
+
+<section class="cert-meaning-section">
+
+    <div class="wrap">
+
+
+        <!-- SECTION HEADING -->
+
+        <div class="cert-meaning-heading reveal">
+
+            <h2>
+                What each standard means for your project
+            </h2>
+
+            <p>
+                Two complementary systems that govern how
+                we manufacture, test and ship every batch.
+            </p>
+
+        </div>
+
+
+        <!-- =================================================
+             CERTIFICATION CARDS
+             ================================================= -->
+
+        <div class="cert-meaning-grid">
+
+
+            <!-- ISO 9001 -->
+
+            <article
+                class="cert-meaning-card reveal"
+            >
+
+                <span class="cert-meaning-tag">
+                    Quality
+                </span>
+
+
+                <div class="cert-meaning-content">
+
+                    <h3>
+                        ISO 9001:2015
+                    </h3>
+
+
+                    <p>
+                        A globally recognised quality
+                        management standard. It requires
+                        documented, repeatable processes
+                        for production, testing and
+                        corrective action — so every bag
+                        or bucket that leaves our Bikaner
+                        facility meets the same
+                        specification, batch after batch.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+            <!-- ISO 14001 -->
+
+            <article
+                class="cert-meaning-card reveal"
+            >
+
+                <span class="cert-meaning-tag">
+                    Environment
+                </span>
+
+
+                <div class="cert-meaning-content">
+
+                    <h3>
+                        ISO 14001:2015
+                    </h3>
+
+
+                    <p>
+                        An environmental management
+                        standard covering resource use,
+                        waste handling and environmental
+                        risk across manufacturing.
+                        It formalises our commitment to
+                        responsible production alongside
+                        gypsum's naturally recyclable
+                        material cycle.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     VERIFY CERTIFICATES
+     ===================================================== -->
+
+<section style="padding-bottom:70px;">
+
+    <div
+        class="wrap"
+        style="text-align:center;"
+    >
+
+        <h2 style="margin-bottom:18px;">
+            Verify or request our certificates
+        </h2>
+
+
+        <p
+            class="section-sub"
+            style="
+                margin:0 auto 28px;
+                text-align:center;
+            "
+        >
+            Certificate validity can be independently
+            verified at qrocert.org, or request copies
+            from our team directly.
+        </p>
+
+
+        <a
+            href="contact.html"
+            class="btn btn-primary"
+        >
+            Contact Us →
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     FOOTER
+     ===================================================== -->
+
+<footer>
+
+    <div class="wrap">
+
+        <div class="footer-grid">
+
+
+            <!-- FOOTER BRAND -->
+
+            <div>
+
+                <div class="flogo">
+
+                    <img
+                        src="assets/img/logo.png"
+                        alt="Elephant Gypsum Logo"
+                        class="logo-mark"
+                    >
+
+                    Elephant Gypsum
+
+                </div>
+
+
+                <p class="desc">
+                    ISO 9001 &amp; 14001 certified
+                    manufacturer of gypsum plaster
+                    and bonding agents, supplied to
+                    125+ landmark developments
+                    across India.
+                </p>
+
+            </div>
+
+
+            <!-- COMPANY -->
+
+            <div>
+
+                <h4>
+                    Company
+                </h4>
+
+
+                <ul>
+
+                    <li>
+                        <a href="about.html">
+                            About Us
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="applications.html">
+                            Applications
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="certifications.html">
+                            Certifications
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="projects.html">
+                            Projects
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="contact.html">
+                            Contact
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+            <!-- PRODUCTS -->
+
+            <div>
+
+                <h4>
+                    Products
+                </h4>
+
+
+                <ul>
+
+                    <li>
+                        <a href="products.html">
+                            Single Coat N1
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="products.html">
+                            Single Coat N1 Plus
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="products.html">
+                            Single Coat Unique N2
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="products.html">
+                            EGP Bond Plus
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+            <!-- CONTACT -->
+
+            <div>
+
+                <h4>
+                    Contact
+                </h4>
+
+
+                <ul>
+
+                    <li>
+                        +91 90046 53752
+                    </li>
+
+                    <li>
+                        elephantgypproduct@ymail.com
+                    </li>
+
+                    <li>
+                        Thane (W), Maharashtra
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+        </div>
+
+
+        <!-- FOOTER BOTTOM -->
+
+        <div class="footer-bottom">
+
+            <span>
+                © 2026 Elephant Gypsum Pvt. Ltd.
+                All rights reserved.
+            </span>
+
+
+            <span>
+                Privacy Policy · Terms of Service
+            </span>
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+<!-- =====================================================
+     FLOATING BUTTONS
+     ===================================================== -->
+
+<div class="float-btns">
+
+    <a
+        class="fbtn wa"
+        href="https://wa.me/919004653752"
+        target="_blank"
+        aria-label="WhatsApp"
+    >
+        ✆
+    </a>
+
+
+    <button
+        class="fbtn top"
+        id="topBtn"
+        aria-label="Back to top"
+    >
+        ↑
+    </button>
+
+</div>
+
+
+<!-- MAIN JAVASCRIPT -->
+
+<script src="main.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,1130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>
+        Why Elephant Gypsum | Elephant Gypsum Pvt. Ltd.
+    </title>
+
+    <meta
+        name="description"
+        content="Eight tested, documented reasons builders across India specify Elephant Gypsum plaster and bonding systems."
+    >
+
+    <!-- GOOGLE FONTS -->
+    <link
+        rel="preconnect"
+        href="https://fonts.googleapis.com"
+    >
+
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- MAIN CSS -->
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+
+
+    <!-- =====================================================
+         WHY US PAGE SPECIFIC CSS
+         ===================================================== -->
+
+    <style>
+
+        /* =====================================================
+           WHY US REASONS SECTION
+           ===================================================== */
+
+        .why-reasons-section {
+            width: 100%;
+            padding: 80px 0 100px;
+            background: #faf7f2;
+        }
+
+
+        .why-reasons-grid {
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 30px;
+            align-items: stretch;
+        }
+
+
+        /* =====================================================
+           REASON CARD
+           ===================================================== */
+
+        .why-reason-card {
+            width: 100%;
+            min-width: 0;
+            min-height: 230px;
+
+            box-sizing: border-box;
+
+            border: 1px solid #ddd5ca;
+            border-radius: 7px;
+
+            background: #faf8f4;
+
+            overflow: hidden;
+
+            display: flex;
+            flex-direction: column;
+
+            transition:
+                transform 0.25s ease,
+                box-shadow 0.25s ease,
+                border-color 0.25s ease;
+        }
+
+
+        .why-reason-card:hover {
+            transform: translateY(-3px);
+
+            border-color: #d4c7b8;
+
+            box-shadow:
+                0 14px 30px rgba(40, 30, 20, 0.08);
+        }
+
+
+        /* =====================================================
+           CARD TAG
+           ===================================================== */
+
+        .reason-tag {
+            display: inline-flex;
+            align-items: center;
+
+            width: fit-content;
+
+            min-height: 36px;
+
+            margin: 0;
+            padding: 8px 14px;
+
+            box-sizing: border-box;
+
+            border-radius: 0 22px 22px 0;
+
+            background: #f8e9d7;
+
+            color: #ec6f00;
+
+            font-family:
+                "IBM Plex Mono",
+                monospace;
+
+            font-size: 13px;
+            font-weight: 500;
+
+            letter-spacing: 1.2px;
+
+            text-transform: uppercase;
+        }
+
+
+        /* =====================================================
+           CARD CONTENT
+           ===================================================== */
+
+        .reason-content {
+            flex: 1;
+
+            display: flex;
+            flex-direction: column;
+
+            padding: 30px 30px 30px;
+
+            box-sizing: border-box;
+        }
+
+
+        /* =====================================================
+           CARD TITLE
+           ===================================================== */
+
+        .why-reason-card h3 {
+            margin: 0 0 18px;
+            padding: 0;
+
+            color: #20242a;
+
+            font-family:
+                "Space Grotesk",
+                sans-serif;
+
+            font-size: 29px;
+            font-weight: 600;
+
+            line-height: 1.22;
+
+            letter-spacing: -0.5px;
+        }
+
+
+        /* =====================================================
+           CARD DESCRIPTION
+           ===================================================== */
+
+        .why-reason-card p {
+            margin: 0;
+            padding: 0;
+
+            color: #667180;
+
+            font-family:
+                "Inter",
+                sans-serif;
+
+            font-size: 17px;
+            font-weight: 400;
+
+            line-height: 1.65;
+        }
+
+
+        /* =====================================================
+           ISO SECTION
+           ===================================================== */
+
+        .why-iso-section {
+            padding: 85px 0;
+        }
+
+
+        .why-iso-inner {
+            max-width: 900px;
+
+            margin: 0 auto;
+
+            text-align: center;
+        }
+
+
+        .why-iso-inner .section-head {
+            display: block;
+            margin-bottom: 30px;
+        }
+
+
+        .why-iso-inner .section-sub {
+            max-width: 850px;
+            margin: 0 auto;
+        }
+
+
+        /* =====================================================
+           PRODUCTS CTA
+           ===================================================== */
+
+        .why-products-cta {
+            padding: 0 0 90px;
+
+            text-align: center;
+        }
+
+
+        .why-products-cta h2 {
+            margin-bottom: 18px;
+        }
+
+
+        .why-products-cta .section-sub {
+            max-width: 720px;
+            margin: 0 auto 28px;
+        }
+
+
+        /* =====================================================
+           TABLET
+           ===================================================== */
+
+        @media (max-width: 900px) {
+
+            .why-reasons-section {
+                padding: 65px 0 80px;
+            }
+
+
+            .why-reasons-grid {
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+                gap: 22px;
+            }
+
+
+            .why-reason-card {
+                min-height: 250px;
+            }
+
+
+            .reason-content {
+                padding: 25px 24px 25px;
+            }
+
+
+            .why-reason-card h3 {
+                font-size: 23px;
+            }
+
+
+            .why-reason-card p {
+                font-size: 15px;
+            }
+
+        }
+
+
+        /* =====================================================
+           MOBILE
+           ===================================================== */
+
+        @media (max-width: 650px) {
+
+            .why-reasons-section {
+                padding: 50px 0 65px;
+            }
+
+
+            .why-reasons-grid {
+                grid-template-columns: 1fr;
+                gap: 18px;
+            }
+
+
+            .why-reason-card {
+                min-height: auto;
+            }
+
+
+            .reason-content {
+                padding: 24px 20px 24px;
+            }
+
+
+            .why-reason-card h3 {
+                margin-bottom: 13px;
+                font-size: 22px;
+            }
+
+
+            .why-reason-card p {
+                font-size: 15px;
+                line-height: 1.6;
+            }
+
+
+            .why-iso-section {
+                padding: 60px 0;
+            }
+
+
+            .why-products-cta {
+                padding-bottom: 65px;
+            }
+
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+<!-- =====================================================
+     HEADER
+     ===================================================== -->
+
+<header id="siteHeader">
+
+    <div class="wrap nav-inner">
+
+
+        <!-- LOGO -->
+
+        <a
+            href="index.html"
+            class="logo"
+        >
+
+            <img
+                src="assets/img/logo.png"
+                alt="Elephant Gypsum Logo"
+                class="logo-mark"
+            >
+
+            <span>
+                Elephant Gypsum
+                <small>Pvt. Ltd.</small>
+            </span>
+
+        </a>
+
+
+        <!-- DESKTOP NAVIGATION -->
+
+        <nav class="links">
+
+            <a href="about.html">
+                About
+            </a>
+
+            <a href="products.html">
+                Products
+            </a>
+
+            <a href="applications.html">
+                Applications
+            </a>
+
+            <a
+                href="why-us.html"
+                class="active"
+            >
+                Why Us
+            </a>
+
+            <a href="certifications.html">
+                Certifications
+            </a>
+
+            <a href="projects.html">
+                Projects
+            </a>
+
+            <a href="contact.html">
+                Contact
+            </a>
+
+        </nav>
+
+
+        <!-- QUOTE BUTTON -->
+
+        <a
+            href="contact.html"
+            class="nav-cta"
+        >
+            Get a Quote
+        </a>
+
+
+        <!-- MOBILE MENU BUTTON -->
+
+        <button
+            class="hamburger"
+            id="hamburger"
+            aria-label="Menu"
+        >
+
+            <span></span>
+            <span></span>
+            <span></span>
+
+        </button>
+
+
+    </div>
+
+</header>
+
+
+
+<!-- =====================================================
+     MOBILE MENU
+     ===================================================== -->
+
+<div
+    class="mobile-menu"
+    id="mobileMenu"
+>
+
+    <a href="about.html">
+        About
+    </a>
+
+    <a href="products.html">
+        Products
+    </a>
+
+    <a href="applications.html">
+        Applications
+    </a>
+
+    <a href="why-us.html">
+        Why Us
+    </a>
+
+    <a href="certifications.html">
+        Certifications
+    </a>
+
+    <a href="projects.html">
+        Projects
+    </a>
+
+    <a href="contact.html">
+        Contact
+    </a>
+
+</div>
+
+
+
+<!-- =====================================================
+     PAGE HERO
+     ===================================================== -->
+
+<section class="page-hero">
+
+    <img
+        src="assets/img/elephant-line.png"
+        alt=""
+        class="elephant-motif"
+        aria-hidden="true"
+    >
+
+
+    <div class="wrap">
+
+
+        <div class="crumb">
+
+            <a href="index.html">
+                Home
+            </a>
+
+            /
+
+            Why Us
+
+        </div>
+
+
+        <h1>
+            Eight reasons builders specify Elephant Gypsum
+        </h1>
+
+
+        <p>
+            Every claim below is measured and documented
+            on our technical data sheets and ISO-certified
+            quality system — not marketing copy.
+        </p>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     WHY US CARDS
+     ===================================================== -->
+
+<section class="why-reasons-section">
+
+    <div class="wrap">
+
+
+        <div class="why-reasons-grid">
+
+
+            <!-- =================================================
+                 CARD 01
+                 ================================================= -->
+
+            <article
+                class="why-reason-card reveal"
+            >
+
+                <span class="reason-tag">
+                    01 · Safety
+                </span>
+
+
+                <div class="reason-content">
+
+                    <h3>
+                        Fire Resistant &amp; Non-Combustible
+                    </h3>
+
+
+                    <p>
+                        Gypsum plaster's core chemistry makes
+                        it inherently non-combustible, adding
+                        a passive fire-safety layer to walls
+                        and ceilings — valued in hospitals,
+                        hotels and high-rise residential towers.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- =================================================
+                 CARD 02
+                 ================================================= -->
+
+            <article
+                class="why-reason-card reveal"
+            >
+
+                <span class="reason-tag">
+                    02 · Efficiency
+                </span>
+
+
+                <div class="reason-content">
+
+                    <h3>
+                        No Water Curing Required
+                    </h3>
+
+
+                    <p>
+                        Unlike cement plaster, our gypsum
+                        systems don't need days of water
+                        curing — cutting labour hours,
+                        water usage and site scheduling delays.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- =================================================
+                 CARD 03
+                 ================================================= -->
+
+            <article
+                class="why-reason-card reveal"
+            >
+
+                <span class="reason-tag">
+                    03 · Durability
+                </span>
+
+
+                <div class="reason-content">
+
+                    <h3>
+                        Zero Shrinkage Cracks
+                    </h3>
+
+
+                    <p>
+                        Formulated to resist the inherent
+                        shrinkage cracking common with
+                        traditional cement-sand plaster,
+                        keeping walls smooth for longer.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- =================================================
+                 CARD 04
+                 ================================================= -->
+
+            <article
+                class="why-reason-card reveal"
+            >
+
+                <span class="reason-tag">
+                    04 · Speed
+                </span>
+
+
+                <div class="reason-content">
+
+                    <h3>
+                        Rapid, Predictable Setting
+                    </h3>
+
+
+                    <p>
+                        Setting times of 12–25 minutes across
+                        our plaster range keep application
+                        crews moving through a site without
+                        long idle gaps.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- =================================================
+                 CARD 05
+                 ================================================= -->
+
+            <article
+                class="why-reason-card reveal"
+            >
+
+                <span class="reason-tag">
+                    05 · Comfort
+                </span>
+
+
+                <div class="reason-content">
+
+                    <h3>
+                        Acoustic &amp; Thermal Insulation
+                    </h3>
+
+
+                    <p>
+                        Gypsum plaster improves sound dampening
+                        and thermal comfort inside finished rooms
+                        compared to conventional plaster systems.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- =================================================
+                 CARD 06
+                 ================================================= -->
+
+            <article
+                class="why-reason-card reveal"
+            >
+
+                <span class="reason-tag">
+                    06 · Sustainability
+                </span>
+
+
+                <div class="reason-content">
+
+                    <h3>
+                        Infinitely Recyclable
+                    </h3>
+
+
+                    <p>
+                        Gypsum's CaSO4 hydration cycle
+                        (+H2O / -H2O) allows the material
+                        to be re-processed indefinitely —
+                        a genuinely circular building material.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- =================================================
+                 CARD 07
+                 ================================================= -->
+
+            <article
+                class="why-reason-card reveal"
+            >
+
+                <span class="reason-tag">
+                    07 · Compliance
+                </span>
+
+
+                <div class="reason-content">
+
+                    <h3>
+                        IS &amp; ASTM Certified
+                    </h3>
+
+
+                    <p>
+                        Plaster products conform to IS 2547
+                        Part 1 &amp; 2; EGP Bond Plus is tested
+                        to ASTM D7234 and D4541 for bond strength.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- =================================================
+                 CARD 08
+                 ================================================= -->
+
+            <article
+                class="why-reason-card reveal"
+            >
+
+                <span class="reason-tag">
+                    08 · Reach
+                </span>
+
+
+                <div class="reason-content">
+
+                    <h3>
+                        Proven Across 125+ Projects
+                    </h3>
+
+
+                    <p>
+                        Supplied to 25+ builder groups including
+                        Lodha, Godrej, Adani, Kalpataru, Prestige
+                        and Shapoorji Pallonji across Mumbai,
+                        Thane and Pune.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     ISO CERTIFICATION SECTION
+     ===================================================== -->
+
+<section class="why why-iso-section">
+
+    <div class="wrap">
+
+
+        <div class="why-iso-inner">
+
+
+            <div class="section-head reveal">
+
+                <h2>
+                    Backed by an ISO-certified quality system
+                </h2>
+
+
+                <p class="section-sub">
+                    Independently assessed by QRO Certification
+                    LLP for both quality management
+                    (ISO 9001:2015) and environmental management
+                    (ISO 14001:2015).
+                </p>
+
+            </div>
+
+
+            <a
+                href="certifications.html"
+                class="btn btn-primary reveal"
+            >
+                View Our Certificates →
+            </a>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     PRODUCTS CTA
+     ===================================================== -->
+
+<section class="why-products-cta">
+
+    <div class="wrap">
+
+
+        <h2>
+            See the products behind these numbers
+        </h2>
+
+
+        <p class="section-sub">
+            Browse full technical data sheets for every
+            product in our range.
+        </p>
+
+
+        <a
+            href="products.html"
+            class="btn btn-primary"
+        >
+            View Products →
+        </a>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     FOOTER
+     ===================================================== -->
+
+<footer>
+
+    <div class="wrap">
+
+
+        <div class="footer-grid">
+
+
+            <!-- FOOTER ABOUT -->
+
+            <div>
+
+                <div class="flogo">
+
+                    <img
+                        src="assets/img/logo.png"
+                        alt="Elephant Gypsum Logo"
+                        class="logo-mark"
+                    >
+
+                    Elephant Gypsum
+
+                </div>
+
+
+                <p class="desc">
+                    ISO 9001 &amp; 14001 certified manufacturer
+                    of gypsum plaster and bonding agents,
+                    supplied to 125+ landmark developments
+                    across India.
+                </p>
+
+            </div>
+
+
+
+            <!-- COMPANY -->
+
+            <div>
+
+                <h4>
+                    Company
+                </h4>
+
+
+                <ul>
+
+                    <li>
+                        <a href="about.html">
+                            About Us
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="applications.html">
+                            Applications
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="certifications.html">
+                            Certifications
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="projects.html">
+                            Projects
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="contact.html">
+                            Contact
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+
+            <!-- PRODUCTS -->
+
+            <div>
+
+                <h4>
+                    Products
+                </h4>
+
+
+                <ul>
+
+                    <li>
+                        <a href="products.html">
+                            Single Coat N1
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="products.html">
+                            Single Coat N1 Plus
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="products.html">
+                            Single Coat Unique N2
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="products.html">
+                            EGP Bond Plus
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+
+            <!-- CONTACT -->
+
+            <div>
+
+                <h4>
+                    Contact
+                </h4>
+
+
+                <ul>
+
+                    <li>
+                        +91 90046 53752
+                    </li>
+
+                    <li>
+                        elephantgypproduct@ymail.com
+                    </li>
+
+                    <li>
+                        Thane (W), Maharashtra
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+        </div>
+
+
+
+        <!-- FOOTER BOTTOM -->
+
+        <div class="footer-bottom">
+
+            <span>
+                © 2026 Elephant Gypsum Pvt. Ltd.
+                All rights reserved.
+            </span>
+
+
+            <span>
+                Privacy Policy · Terms of Service
+            </span>
+
+        </div>
+
+
+    </div>
+
+</footer>
+
+
+
+<!-- =====================================================
+     FLOATING BUTTONS
+     ===================================================== -->
+
+<div class="float-btns">
+
+
+    <!-- WHATSAPP -->
+
+    <a
+        class="fbtn wa"
+        href="https://wa.me/919004653752"
+        target="_blank"
+        aria-label="WhatsApp"
+    >
+        ✆
+    </a>
+
+
+    <!-- BACK TO TOP -->
+
+    <button
+        class="fbtn top"
+        id="topBtn"
+        aria-label="Back to top"
+    >
+        ↑
+    </button>
+
+
+</div>
+
+
+
+<!-- =====================================================
+     MAIN JAVASCRIPT
+     ===================================================== -->
+
+<script src="main.js"></script>
+
+
+</body>
+
+</html>

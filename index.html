@@ -1,0 +1,3172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>
+Elephant Gypsum | Premium Gypsum Plaster &amp; Bonding Solutions
+</title>
+
+<meta
+  name="description"
+  content="Elephant Gypsum Pvt. Ltd. — ISO 9001 &amp; 14001 certified manufacturer of gypsum plaster and bonding agents, trusted by Lodha, Godrej, Adani, Kalpataru and 100+ builders across India."
+>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link
+  href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap"
+  rel="stylesheet"
+>
+
+<link rel="stylesheet" href="style.css">
+
+
+<!-- =========================================================
+     PRODUCT CARD FINAL FIX
+     ========================================================= -->
+
+<style>
+
+/* =========================================================
+   PRODUCT GRID
+   ========================================================= */
+
+.products .product-grid {
+    display: grid !important;
+
+    grid-template-columns:
+        repeat(2, minmax(0, 1fr)) !important;
+
+    gap: 34px !important;
+
+    width: 100% !important;
+
+    align-items: stretch !important;
+}
+
+
+/* =========================================================
+   PRODUCT CARD
+   ========================================================= */
+
+.products .product-card {
+
+    width: 100% !important;
+
+    min-width: 0 !important;
+
+    height: 100% !important;
+
+    min-height: 0 !important;
+
+    display: flex !important;
+
+    flex-direction: column !important;
+
+    box-sizing: border-box !important;
+
+    overflow: hidden !important;
+
+    padding: 0 !important;
+
+}
+
+
+/* =========================================================
+   PRODUCT IMAGE AREA
+   ========================================================= */
+
+.products .product-card .product-photo-wrap {
+
+    width: 100% !important;
+
+    height: 280px !important;
+
+    min-height: 280px !important;
+
+    display: flex !important;
+
+    align-items: center !important;
+
+    justify-content: center !important;
+
+    position: relative !important;
+
+    overflow: hidden !important;
+
+    background: #f3eee7 !important;
+
+    margin: 0 !important;
+
+    padding: 20px !important;
+
+    box-sizing: border-box !important;
+
+}
+
+
+/* PRODUCT IMAGE */
+
+.products .product-card .product-photo-wrap img {
+
+    display: block !important;
+
+    width: auto !important;
+
+    height: 220px !important;
+
+    max-width: 75% !important;
+
+    max-height: 230px !important;
+
+    object-fit: contain !important;
+
+    object-position: center !important;
+
+    margin: 0 auto !important;
+
+    transition:
+        opacity 0.3s ease,
+        transform 0.3s ease !important;
+
+}
+
+
+/* NORMAL IMAGE */
+
+.products
+.product-card
+.product-photo-wrap
+img.default {
+
+    opacity: 1 !important;
+
+    visibility: visible !important;
+
+}
+
+
+/* HOVER IMAGE */
+
+.products
+.product-card
+.product-photo-wrap
+img.on-hover {
+
+    position: absolute !important;
+
+    top: 50% !important;
+
+    left: 50% !important;
+
+    transform:
+        translate(-50%, -50%) !important;
+
+    opacity: 0 !important;
+
+    visibility: hidden !important;
+
+}
+
+
+/* HOVER NORMAL IMAGE */
+
+.products
+.product-card:hover
+.product-photo-wrap
+img.default {
+
+    opacity: 0 !important;
+
+    visibility: hidden !important;
+
+}
+
+
+/* HOVER SIDE IMAGE */
+
+.products
+.product-card:hover
+.product-photo-wrap
+img.on-hover {
+
+    opacity: 1 !important;
+
+    visibility: visible !important;
+
+    transform:
+        translate(-50%, -50%) scale(1.03) !important;
+
+}
+
+
+/* =========================================================
+   PRODUCT TAG
+   ========================================================= */
+
+.products .product-card .product-tag {
+
+    display: inline-block !important;
+
+    width: fit-content !important;
+
+    max-width:
+        calc(100% - 40px) !important;
+
+    margin:
+        22px 20px 0 !important;
+
+    box-sizing: border-box !important;
+
+}
+
+
+/* =========================================================
+   PRODUCT TITLE
+   ========================================================= */
+
+.products .product-card h3 {
+
+    margin:
+        18px 20px 10px !important;
+
+    padding: 0 !important;
+
+    line-height: 1.2 !important;
+
+}
+
+
+/* =========================================================
+   PRODUCT DESCRIPTION
+   ========================================================= */
+
+.products .product-card > p {
+
+    margin:
+        0 20px 20px !important;
+
+    padding: 0 !important;
+
+    min-height: 76px !important;
+
+    line-height: 1.6 !important;
+
+}
+
+
+/* =========================================================
+   SPECIFICATION ROW
+   ========================================================= */
+
+.products .product-card .spec-row {
+
+    width: 100% !important;
+
+    display: grid !important;
+
+    grid-template-columns:
+        1fr auto !important;
+
+    align-items: center !important;
+
+    min-height: 60px !important;
+
+    margin: 0 !important;
+
+    padding:
+        0 20px !important;
+
+    box-sizing: border-box !important;
+
+    border-top:
+        1px solid rgba(0,0,0,0.08) !important;
+
+}
+
+
+/* SPECIFICATION LABEL */
+
+.products
+.product-card
+.spec-row
+span:first-child {
+
+    text-align: left !important;
+
+    font-size: 15px !important;
+
+    white-space: normal !important;
+
+}
+
+
+/* SPECIFICATION VALUE */
+
+.products
+.product-card
+.spec-row
+span:last-child {
+
+    text-align: right !important;
+
+    font-size: 13px !important;
+
+    font-weight: 600 !important;
+
+    white-space: nowrap !important;
+
+    margin-left: 20px !important;
+
+}
+
+
+/* =========================================================
+   PRODUCT FEATURES
+   ========================================================= */
+
+.products .product-card .product-props {
+
+    width: 100% !important;
+
+    display: flex !important;
+
+    flex-wrap: wrap !important;
+
+    align-items: center !important;
+
+    gap: 8px !important;
+
+    margin: 0 !important;
+
+    padding:
+        18px 20px 20px !important;
+
+    box-sizing: border-box !important;
+
+}
+
+
+/* FEATURE BADGE */
+
+.products
+.product-card
+.product-props
+span {
+
+    display: inline-flex !important;
+
+    align-items: center !important;
+
+    justify-content: center !important;
+
+    min-height: 34px !important;
+
+    padding:
+        7px 13px !important;
+
+    box-sizing: border-box !important;
+
+    border-radius: 30px !important;
+
+    white-space: nowrap !important;
+
+    font-size: 12px !important;
+
+}
+
+
+/* =========================================================
+   N1 + N1 PLUS
+   EXACT SAME IMAGE HEIGHT
+   ========================================================= */
+
+.products
+.product-card:nth-child(1)
+.product-photo-wrap,
+
+.products
+.product-card:nth-child(2)
+.product-photo-wrap {
+
+    height: 280px !important;
+
+    min-height: 280px !important;
+
+}
+
+
+.products
+.product-card:nth-child(1)
+> p,
+
+.products
+.product-card:nth-child(2)
+> p {
+
+    min-height: 76px !important;
+
+}
+
+
+/* =========================================================
+   DESKTOP - EXTRA LARGE
+   ========================================================= */
+
+@media (min-width: 1200px) {
+
+    .products .product-grid {
+
+        gap: 38px !important;
+
+    }
+
+    .products
+    .product-card
+    .product-photo-wrap {
+
+        height: 300px !important;
+
+        min-height: 300px !important;
+
+    }
+
+    .products
+    .product-card
+    .product-photo-wrap
+    img {
+
+        height: 235px !important;
+
+        max-height: 245px !important;
+
+    }
+
+}
+
+
+/* =========================================================
+   TABLET
+   ========================================================= */
+
+@media (max-width: 900px) {
+
+    .products .product-grid {
+
+        grid-template-columns:
+            1fr !important;
+
+        gap: 25px !important;
+
+    }
+
+
+    .products
+    .product-card
+    .product-photo-wrap {
+
+        height: 260px !important;
+
+        min-height: 260px !important;
+
+    }
+
+
+    .products
+    .product-card
+    > p {
+
+        min-height: auto !important;
+
+    }
+
+}
+
+
+/* =========================================================
+   MOBILE
+   ========================================================= */
+
+@media (max-width: 600px) {
+
+    .products .product-grid {
+
+        grid-template-columns:
+            1fr !important;
+
+        gap: 20px !important;
+
+    }
+
+
+    .products
+    .product-card
+    .product-photo-wrap {
+
+        height: 230px !important;
+
+        min-height: 230px !important;
+
+        padding: 15px !important;
+
+    }
+
+
+    .products
+    .product-card
+    .product-photo-wrap
+    img {
+
+        height: 190px !important;
+
+        max-height: 200px !important;
+
+    }
+
+
+    .products
+    .product-card
+    .product-tag {
+
+        margin-left: 16px !important;
+
+        margin-right: 16px !important;
+
+    }
+
+
+    .products
+    .product-card
+    h3 {
+
+        margin-left: 16px !important;
+
+        margin-right: 16px !important;
+
+    }
+
+
+    .products
+    .product-card
+    > p {
+
+        margin-left: 16px !important;
+
+        margin-right: 16px !important;
+
+        min-height: auto !important;
+
+    }
+
+
+    .products
+    .product-card
+    .spec-row {
+
+        grid-template-columns:
+            1fr !important;
+
+        gap: 6px !important;
+
+        min-height: auto !important;
+
+        padding:
+            12px 16px !important;
+
+    }
+
+
+    .products
+    .product-card
+    .spec-row
+    span:last-child {
+
+        text-align: left !important;
+
+        white-space: normal !important;
+
+        margin-left: 0 !important;
+
+    }
+
+
+    .products
+    .product-card
+    .product-props {
+
+        padding:
+            15px 16px 18px !important;
+
+    }
+
+}
+
+</style>
+
+
+</head>
+
+
+<body>
+
+
+<!-- =========================================================
+     HEADER
+     ========================================================= -->
+
+<header id="siteHeader">
+
+    <div class="wrap nav-inner">
+
+
+        <a href="#home" class="logo">
+
+            <img
+                src="assets/img/logo.png"
+                alt="Elephant Gypsum Logo"
+                class="logo-mark"
+            >
+
+            <span>
+
+                Elephant Gypsum
+
+                <small>
+                    Pvt. Ltd.
+                </small>
+
+            </span>
+
+        </a>
+
+
+        <nav class="links">
+
+            <a href="about.html">
+                About
+            </a>
+
+            <a href="products.html">
+                Products
+            </a>
+
+            <a href="applications.html">
+                Applications
+            </a>
+
+            <a href="why-us.html">
+                Why Us
+            </a>
+
+            <a href="certifications.html">
+                Certifications
+            </a>
+
+            <a href="projects.html">
+                Projects
+            </a>
+
+            <a href="contact.html">
+                Contact
+            </a>
+
+        </nav>
+
+
+        <a
+            href="contact.html"
+            class="nav-cta">
+
+            Get a Quote
+
+        </a>
+
+
+        <button
+            class="hamburger"
+            id="hamburger"
+            aria-label="Menu">
+
+            <span></span>
+
+            <span></span>
+
+            <span></span>
+
+        </button>
+
+
+    </div>
+
+</header>
+
+
+<!-- =========================================================
+     MOBILE MENU
+     ========================================================= -->
+
+<div
+    class="mobile-menu"
+    id="mobileMenu">
+
+    <a href="about.html">
+        About
+    </a>
+
+    <a href="products.html">
+        Products
+    </a>
+
+    <a href="applications.html">
+        Applications
+    </a>
+
+    <a href="why-us.html">
+        Why Us
+    </a>
+
+    <a href="certifications.html">
+        Certifications
+    </a>
+
+    <a href="projects.html">
+        Projects
+    </a>
+
+    <a href="contact.html">
+        Contact
+    </a>
+
+</div>
+
+
+<!-- =========================================================
+     HERO
+     ========================================================= -->
+
+<section
+    class="hero"
+    id="home">
+
+
+    <svg
+        class="hero-cycle"
+        viewBox="0 0 400 400"
+        xmlns="http://www.w3.org/2000/svg">
+
+        <circle
+            cx="200"
+            cy="200"
+            r="150"
+            fill="none"
+            stroke="#F28C28"
+            stroke-width="1.5"
+            stroke-dasharray="4 6"
+        />
+
+        <text
+            x="200"
+            y="80"
+            fill="#F28C28"
+            font-family="IBM Plex Mono"
+            font-size="16"
+            text-anchor="middle">
+
+            +H2O
+
+        </text>
+
+        <text
+            x="200"
+            y="330"
+            fill="#F28C28"
+            font-family="IBM Plex Mono"
+            font-size="16"
+            text-anchor="middle">
+
+            -H2O
+
+        </text>
+
+        <text
+            x="200"
+            y="205"
+            fill="#FAF7F2"
+            font-family="Space Grotesk"
+            font-size="26"
+            text-anchor="middle"
+            font-weight="700">
+
+            CaSO4
+
+        </text>
+
+    </svg>
+
+
+    <div class="wrap hero-content">
+
+
+        <div
+            class="eyebrow"
+            style="color:var(--orange)">
+
+            ISO 9001 &amp; 14001 Certified Manufacturer
+
+        </div>
+
+
+        <h1>
+
+            Building stronger spaces with
+            <em>premium gypsum</em>
+            solutions
+
+        </h1>
+
+
+        <p>
+
+            Elephant Gypsum Pvt. Ltd. manufactures
+            high-performance gypsum plaster and bonding
+            systems trusted by India's leading builders —
+            Lodha, Godrej, Adani, Kalpataru and more.
+
+        </p>
+
+
+        <div class="hero-btns">
+
+            <a
+                href="products.html"
+                class="btn btn-primary">
+
+                Explore Products →
+
+            </a>
+
+
+            <a
+                href="contact.html"
+                class="btn btn-outline">
+
+                Contact Us
+
+            </a>
+
+        </div>
+
+
+        <div class="hero-stats">
+
+
+            <div class="stat">
+
+                <div class="num">
+
+                    <span
+                        class="counter"
+                        data-target="125">
+
+                        0
+
+                    </span>+
+
+                </div>
+
+                <div class="label">
+                    Projects Supplied
+                </div>
+
+            </div>
+
+
+            <div class="stat">
+
+                <div class="num">
+
+                    <span
+                        class="counter"
+                        data-target="25">
+
+                        0
+
+                    </span>+
+
+                </div>
+
+                <div class="label">
+                    Builder Partners
+                </div>
+
+            </div>
+
+
+            <div class="stat">
+
+                <div class="num">
+
+                    <span
+                        class="counter"
+                        data-target="4">
+
+                        0
+
+                    </span>
+
+                </div>
+
+                <div class="label">
+                    Product Lines
+                </div>
+
+            </div>
+
+
+            <div class="stat">
+
+                <div class="num">
+                    ISO
+                </div>
+
+                <div class="label">
+                    9001 &amp; 14001
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+    <div class="scroll-cue">
+
+        <span>
+            Scroll
+        </span>
+
+        <div class="line"></div>
+
+    </div>
+
+
+</section>
+
+
+<!-- =========================================================
+     MARQUEE
+     ========================================================= -->
+
+<div class="marquee-band">
+
+    <div
+        class="marquee-track"
+        id="marqueeTrack">
+
+
+        <span>
+            <b>01</b>
+            Lodha Group
+        </span>
+
+
+        <span>
+            <b>02</b>
+            Godrej Properties
+        </span>
+
+
+        <span>
+            <b>03</b>
+            Adani Group
+        </span>
+
+
+        <span>
+            <b>04</b>
+            Prestige Group
+        </span>
+
+
+        <span>
+            <b>05</b>
+            Kalpataru Group
+        </span>
+
+
+        <span>
+            <b>06</b>
+            Shapoorji Pallonji
+        </span>
+
+
+        <span>
+            <b>07</b>
+            Piramal Group
+        </span>
+
+
+        <span>
+            <b>08</b>
+            Raheja Group
+        </span>
+
+
+        <span>
+            <b>09</b>
+            VTP Realty
+        </span>
+
+
+        <span>
+            <b>10</b>
+            Kanakia Group
+        </span>
+
+
+        <span>
+            <b>11</b>
+            Ruparel Group
+        </span>
+
+
+        <span>
+            <b>12</b>
+            Dosti Group
+        </span>
+
+
+    </div>
+
+</div>
+
+
+<!-- =========================================================
+     ABOUT
+     ========================================================= -->
+
+<section
+    class="about"
+    id="about">
+
+
+    <div class="wrap about-grid">
+
+
+        <div class="about-copy reveal">
+
+
+            <div class="eyebrow">
+                Company Overview
+            </div>
+
+
+            <h2
+                style="font-size:clamp(28px,3.4vw,40px);margin-bottom:22px;">
+
+                A trusted manufacturer of gypsum-based
+                construction materials
+
+            </h2>
+
+
+            <p>
+
+                Elephant Gypsum Private Limited designs
+                high-performance gypsum plaster systems that
+                help builders achieve superior interior finishes
+                while improving construction efficiency, from our
+                factory in Bikaner, Rajasthan.
+
+            </p>
+
+
+            <p>
+
+                Our vision is to become one of the most respected
+                gypsum plaster manufacturers in India by delivering
+                innovative products, consistent quality, and
+                dependable service to the construction industry.
+
+            </p>
+
+
+            <div class="about-values">
+
+
+                <div>
+
+                    <h4>
+                        Provide
+                    </h4>
+
+                    <p>
+                        High-quality gypsum plaster solutions
+                        for every application.
+                    </p>
+
+                </div>
+
+
+                <div>
+
+                    <h4>
+                        Support
+                    </h4>
+
+                    <p>
+                        Builders with reliable, tested product
+                        performance.
+                    </p>
+
+                </div>
+
+
+                <div>
+
+                    <h4>
+                        Improve
+                    </h4>
+
+                    <p>
+                        Continuously advance our product technology.
+                    </p>
+
+                </div>
+
+
+                <div>
+
+                    <h4>
+                        Partner
+                    </h4>
+
+                    <p>
+                        Build long-term relationships with
+                        construction professionals.
+                    </p>
+
+                </div>
+
+
+            </div>
+
+
+            <a
+                href="about.html"
+                class="btn btn-primary"
+                style="margin-top:34px;">
+
+                Our Full Story →
+
+            </a>
+
+
+            <div class="lifestyle-strip">
+
+
+                <figure>
+
+                    <img
+                        src="assets/img/lifestyle-1.jpg"
+                        alt="Interior finished with smooth EGP gypsum plaster"
+                    >
+
+                    <figcaption>
+                        Smooth, crack-free finish
+                    </figcaption>
+
+                </figure>
+
+
+                <figure>
+
+                    <img
+                        src="assets/img/lifestyle-2.jpg"
+                        alt="Living room with smooth gypsum-plastered walls"
+                    >
+
+                    <figcaption>
+                        Interior-ready walls, no water curing
+                    </figcaption>
+
+                </figure>
+
+
+            </div>
+
+
+        </div>
+
+
+        <div class="cycle-card reveal">
+
+
+            <svg
+                viewBox="0 0 240 240"
+                xmlns="http://www.w3.org/2000/svg">
+
+
+                <circle
+                    cx="120"
+                    cy="120"
+                    r="90"
+                    fill="none"
+                    stroke="#F28C28"
+                    stroke-width="1.4"
+                />
+
+
+                <path
+                    id="cyclePath"
+                    d="M120,30 A90,90 0 1,1 119.9,30"
+                    fill="none"
+                    stroke="none"
+                />
+
+
+                <circle
+                    cx="120"
+                    cy="30"
+                    r="4"
+                    fill="#F28C28"
+                />
+
+
+                <text
+                    x="120"
+                    y="60"
+                    fill="#F28C28"
+                    font-family="IBM Plex Mono"
+                    font-size="13"
+                    text-anchor="middle">
+
+                    +H2O
+
+                </text>
+
+
+                <text
+                    x="196"
+                    y="130"
+                    fill="#FAF7F2"
+                    font-family="Inter"
+                    font-size="12"
+                    text-anchor="middle">
+
+                    Gypsum
+
+                </text>
+
+
+                <text
+                    x="120"
+                    y="128"
+                    fill="#FAF7F2"
+                    font-family="Space Grotesk"
+                    font-size="20"
+                    font-weight="700"
+                    text-anchor="middle">
+
+                    CaSO4
+
+                </text>
+
+
+                <text
+                    x="44"
+                    y="130"
+                    fill="#FAF7F2"
+                    font-family="Inter"
+                    font-size="12"
+                    text-anchor="middle">
+
+                    Plaster
+
+                </text>
+
+
+                <text
+                    x="120"
+                    y="205"
+                    fill="#F28C28"
+                    font-family="IBM Plex Mono"
+                    font-size="13"
+                    text-anchor="middle">
+
+                    -H2O
+
+                </text>
+
+
+            </svg>
+
+
+            <div class="cap">
+
+                The natural hydration cycle at the core of
+                <b>every EGP product</b> — infinitely recyclable,
+                zero shrinkage.
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+
+</section>
+
+
+<!-- =========================================================
+     PRODUCTS
+     ========================================================= -->
+
+<section
+    class="products"
+    id="products">
+
+
+    <div class="wrap">
+
+
+        <div class="section-head reveal">
+
+
+            <div>
+
+
+                <h2>
+
+                    Four formulations, one uncompromising standard
+
+                </h2>
+
+
+                <p
+                    class="section-sub"
+                    style="margin-bottom:0;">
+
+                    Every product ships with a full technical data
+                    sheet — colour, setting time, coverage and
+                    compressive strength tested to Indian Standard
+                    IS 2547.
+
+                </p>
+
+
+            </div>
+
+
+            <a
+                href="products.html"
+                class="btn btn-outline"
+                style="border-color:var(--line);color:var(--charcoal);">
+
+                Full Product Catalogue →
+
+            </a>
+
+
+        </div>
+
+
+        <!-- =====================================================
+             PRODUCT GRID
+             ===================================================== -->
+
+        <div class="product-grid">
+
+
+            <!-- =================================================
+                 PRODUCT 1 - SINGLE COAT N1
+                 ================================================= -->
+
+            <div class="product-card reveal">
+
+
+                <div class="product-photo-wrap">
+
+
+                    <img
+                        class="default"
+                        src="assets/img/n1-front.png"
+                        alt="EGP Single Coat N1 gypsum plaster bag"
+                    >
+
+
+                    <img
+                        class="on-hover"
+                        src="assets/img/n1-side.png"
+                        alt="EGP Single Coat N1 bag side view"
+                    >
+
+
+                </div>
+
+
+                <span class="product-tag">
+
+                    Plaster · IS 2547 Part 1
+
+                </span>
+
+
+                <h3>
+
+                    Single Coat N1
+
+                </h3>
+
+
+                <p>
+
+                    Hemi-hydrate gypsum plaster made entirely
+                    in India for internal wall and ceiling
+                    application in a single coat, with vermiculite
+                    additives for controlled setting.
+
+                </p>
+
+
+                <div class="spec-row">
+
+                    <span>
+                        Colour
+                    </span>
+
+                    <span>
+                        Off-White
+                    </span>
+
+                </div>
+
+
+                <div class="spec-row">
+
+                    <span>
+                        Setting time
+                    </span>
+
+                    <span>
+                        15–25 min
+                    </span>
+
+                </div>
+
+
+                <div class="spec-row">
+
+                    <span>
+                        Coverage
+                    </span>
+
+                    <span>
+                        19–20 sq.ft / 25kg
+                    </span>
+
+                </div>
+
+
+                <div class="spec-row">
+
+                    <span>
+                        Compressive strength
+                    </span>
+
+                    <span>
+                        100 kg/cm²
+                    </span>
+
+                </div>
+
+
+                <div class="product-props">
+
+                    <span>
+                        Fire resistant
+                    </span>
+
+                    <span>
+                        No water curing
+                    </span>
+
+                    <span>
+                        Infinitely recyclable
+                    </span>
+
+                </div>
+
+
+            </div>
+
+
+            <!-- =================================================
+                 PRODUCT 2 - SINGLE COAT N1 PLUS
+                 ================================================= -->
+
+            <div class="product-card reveal">
+
+
+                <div class="product-photo-wrap">
+
+
+                    <img
+                        class="default"
+                        src="assets/img/n1plus-front.png"
+                        alt="EGP Single Coat N1 Plus gypsum plaster bag"
+                    >
+
+
+                    <img
+                        class="on-hover"
+                        src="assets/img/n1plus-side.png"
+                        alt="EGP Single Coat N1 Plus bag side view"
+                    >
+
+
+                </div>
+
+
+                <span class="product-tag">
+
+                    Plaster · IS 2547 Part 1
+
+                </span>
+
+
+                <h3>
+
+                    Single Coat N1 Plus
+
+                </h3>
+
+
+                <p>
+
+                    An enhanced, milky-white formulation
+                    delivering improved bonding strength,
+                    better workability and faster application
+                    than standard N1.
+
+                </p>
+
+
+                <div class="spec-row">
+
+                    <span>
+                        Colour
+                    </span>
+
+                    <span>
+                        Milky White
+                    </span>
+
+                </div>
+
+
+                <div class="spec-row">
+
+                    <span>
+                        Setting time
+                    </span>
+
+                    <span>
+                        12–20 min
+                    </span>
+
+                </div>
+
+
+                <div class="spec-row">
+
+                    <span>
+                        Coverage
+                    </span>
+
+                    <span>
+                        20–21 sq.ft / 25kg
+                    </span>
+
+                </div>
+
+
+                <div class="spec-row">
+
+                    <span>
+                        Compressive strength
+                    </span>
+
+                    <span>
+                        100 kg/cm²
+                    </span>
+
+                </div>
+
+
+                <div class="product-props">
+
+                    <span>
+                        Fire resistant
+                    </span>
+
+                    <span>
+                        Non-combustible
+                    </span>
+
+                    <span>
+                        Sets under 20 min
+                    </span>
+
+                </div>
+
+
+            </div>
+
+
+            <!-- =================================================
+                 PRODUCT 3 - SINGLE COAT UNIQUE N2
+                 ================================================= -->
+
+            <div class="product-card reveal">
+
+
+                <div class="product-photo-wrap">
+
+
+                    <img
+                        class="default"
+                        src="assets/img/n2-front.png"
+                        alt="EGP Single Coat Unique N2 gypsum plaster bag"
+                    >
+
+
+                    <img
+                        class="on-hover"
+                        src="assets/img/n2-side.png"
+                        alt="EGP Single Coat Unique N2 bag side view"
+                    >
+
+
+                </div>
+
+
+                <span class="product-tag">
+
+                    Plaster · IS 2547 Part 1
+
+                </span>
+
+
+                <h3>
+
+                    Single Coat Unique N2
+
+                </h3>
+
+
+                <p>
+
+                    Our premium high-coverage plaster —
+                    Perlite lightweight aggregate boosts
+                    workability and yield, ideal for large-scale
+                    construction projects.
+
+                </p>
+
+
+                <div class="spec-row">
+
+                    <span>
+                        Colour
+                    </span>
+
+                    <span>
+                        Milky White
+                    </span>
+
+                </div>
+
+
+                <div class="spec-row">
+
+                    <span>
+                        Setting time
+                    </span>
+
+                    <span>
+                        12–20 min
+                    </span>
+
+                </div>
+
+
+                <div class="spec-row">
+
+                    <span>
+                        Coverage
+                    </span>
+
+                    <span>
+                        22–23 sq.ft / 25kg
+                    </span>
+
+                </div>
+
+
+                <div class="spec-row">
+
+                    <span>
+                        Compressive strength
+                    </span>
+
+                    <span>
+                        100 kg/cm²
+                    </span>
+
+                </div>
+
+
+                <div class="product-props">
+
+                    <span>
+                        Lightweight aggregate
+                    </span>
+
+                    <span>
+                        Premium finish
+                    </span>
+
+                    <span>
+                        High yield
+                    </span>
+
+                </div>
+
+
+            </div>
+
+
+            <!-- =================================================
+                 PRODUCT 4 - EGP BOND PLUS
+                 ================================================= -->
+
+            <div class="product-card reveal">
+
+
+                <!--
+                    Original product did not contain an image.
+                    Therefore no new image path is invented here.
+                -->
+
+
+                <span class="product-tag">
+
+                    Bonding Agent · ASTM D7234
+
+                </span>
+
+
+                <h3>
+
+                    EGP Bond Plus
+
+                </h3>
+
+
+                <p>
+
+                    A ready-to-apply bonding agent for RCC
+                    surfaces lined with gypsum plaster — no
+                    hacking or labour-intensive surface prep
+                    required.
+
+                </p>
+
+
+                <div class="spec-row">
+
+                    <span>
+                        Colour
+                    </span>
+
+                    <span>
+                        Green
+                    </span>
+
+                </div>
+
+
+                <div class="spec-row">
+
+                    <span>
+                        Coverage
+                    </span>
+
+                    <span>
+                        45–50 sq.ft / kg
+                    </span>
+
+                </div>
+
+
+                <div class="spec-row">
+
+                    <span>
+                        Bonding strength
+                    </span>
+
+                    <span>
+                        &gt; 1 MPa
+                    </span>
+
+                </div>
+
+
+                <div class="spec-row">
+
+                    <span>
+                        Open time
+                    </span>
+
+                    <span>
+                        30 days
+                    </span>
+
+                </div>
+
+
+                <div class="product-props">
+
+                    <span>
+                        Single coat
+                    </span>
+
+                    <span>
+                        No hacking required
+                    </span>
+
+                    <span>
+                        Fast &amp; cost-effective
+                    </span>
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+
+</section>
+
+
+<!-- =========================================================
+     WHY US
+     ========================================================= -->
+
+<section
+    class="why"
+    id="why">
+
+
+    <div class="wrap">
+
+
+        <div class="section-head reveal">
+
+
+            <div>
+
+
+                <h2>
+
+                    Why builders specify Elephant Gypsum
+
+                </h2>
+
+
+                <p
+                    class="section-sub"
+                    style="margin-bottom:0;color:rgba(250,247,242,.6);">
+
+                    Every property below is measured, tested,
+                    and documented on our technical data sheets
+                    — not marketing copy.
+
+                </p>
+
+
+            </div>
+
+
+            <a
+                href="why-us.html"
+                class="btn btn-outline">
+
+                See Full Breakdown →
+
+            </a>
+
+
+        </div>
+
+
+        <div class="why-grid reveal">
+
+
+            <div class="why-item">
+
+                <div class="n">
+                    01
+                </div>
+
+                <h4>
+                    Fire Resistant
+                </h4>
+
+                <p>
+                    Non-combustible gypsum core, tested for
+                    fire safety in residential and commercial builds.
+                </p>
+
+            </div>
+
+
+            <div class="why-item">
+
+                <div class="n">
+                    02
+                </div>
+
+                <h4>
+                    No Water Curing
+                </h4>
+
+                <p>
+                    Sets and cures without additional water curing,
+                    cutting labour and site time.
+                </p>
+
+            </div>
+
+
+            <div class="why-item">
+
+                <div class="n">
+                    03
+                </div>
+
+                <h4>
+                    Zero Shrinkage
+                </h4>
+
+                <p>
+                    Formulated to resist the shrinkage cracks
+                    common with cement-based plasters.
+                </p>
+
+            </div>
+
+
+            <div class="why-item">
+
+                <div class="n">
+                    04
+                </div>
+
+                <h4>
+                    Rapid Setting
+                </h4>
+
+                <p>
+                    Working times of 12–25 minutes keep
+                    application schedules moving fast.
+                </p>
+
+            </div>
+
+
+            <div class="why-item">
+
+                <div class="n">
+                    05
+                </div>
+
+                <h4>
+                    Acoustic &amp; Thermal
+                </h4>
+
+                <p>
+                    Improved sound insulation and thermal
+                    comfort versus conventional plaster.
+                </p>
+
+            </div>
+
+
+            <div class="why-item">
+
+                <div class="n">
+                    06
+                </div>
+
+                <h4>
+                    Infinitely Recyclable
+                </h4>
+
+                <p>
+                    Gypsum's CaSO4 hydration cycle allows
+                    the material to be reprocessed indefinitely.
+                </p>
+
+            </div>
+
+
+            <div class="why-item">
+
+                <div class="n">
+                    07
+                </div>
+
+                <h4>
+                    IS &amp; ASTM Compliant
+                </h4>
+
+                <p>
+                    Products conform to IS 2547 Part 1 &amp; 2,
+                    and ASTM D7234 / D4541 for bonding.
+                </p>
+
+            </div>
+
+
+            <div class="why-item">
+
+                <div class="n">
+                    08
+                </div>
+
+                <h4>
+                    Nationwide Supply
+                </h4>
+
+                <p>
+                    Delivered to 125+ projects for 25+ builder
+                    groups across Maharashtra and beyond.
+                </p>
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+
+</section>
+
+
+<!-- =========================================================
+     CERTIFICATIONS
+     ========================================================= -->
+
+<section
+    class="certs"
+    id="certifications">
+
+
+    <div class="wrap">
+
+
+        <div class="section-head reveal">
+
+
+            <div>
+
+
+                <h2>
+                    Independently certified manufacturing
+                </h2>
+
+
+                <p
+                    class="section-sub"
+                    style="margin-bottom:0;">
+
+                    Assessed and registered by QRO Certification
+                    LLP, an IAF member.
+
+                </p>
+
+
+            </div>
+
+
+            <a
+                href="certifications.html"
+                class="btn btn-outline"
+                style="border-color:var(--line);color:var(--charcoal);">
+
+                View Certificates →
+
+            </a>
+
+
+        </div>
+
+
+        <div class="cert-grid">
+
+
+            <div class="cert-card reveal">
+
+
+                <div class="cert-badge">
+
+                    ISO<br>9001
+
+                </div>
+
+
+                <div>
+
+                    <h4>
+
+                        ISO 9001:2015 —
+                        Quality Management System
+
+                    </h4>
+
+
+                    <p>
+
+                        Certified for the manufacturing of
+                        high-quality gypsum plaster &amp; bonding
+                        agent at our Bikaner, Rajasthan facility.
+
+                    </p>
+
+
+                    <div class="cert-meta">
+
+                        Cert. No. 305026062615Q · Issued
+                        26 Jun 2026 · Valid to 25 Jun 2029
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+            <div class="cert-card reveal">
+
+
+                <div class="cert-badge">
+
+                    ISO<br>14001
+
+                </div>
+
+
+                <div>
+
+                    <h4>
+
+                        ISO 14001:2015 —
+                        Environmental Management System
+
+                    </h4>
+
+
+                    <p>
+
+                        Confirms our environmental management
+                        practices across gypsum plaster and
+                        bonding agent production.
+
+                    </p>
+
+
+                    <div class="cert-meta">
+
+                        Cert. No. 305026062616E · Issued
+                        26 Jun 2026 · Valid to 25 Jun 2029
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+
+</section>
+
+
+<!-- =========================================================
+     APPLICATIONS
+     ========================================================= -->
+
+<section class="applications">
+
+
+    <div class="wrap">
+
+
+        <div class="section-head reveal">
+
+
+            <h2>
+                Built for every application
+            </h2>
+
+
+            <p>
+
+                From residential towers to hospitals,
+                our plaster systems are specified across
+                every asset class.
+
+            </p>
+
+
+        </div>
+
+
+        <div class="app-grid">
+
+
+            <a
+                href="applications.html#residential"
+                class="app-card reveal">
+
+                Residential
+
+                <span class="arrow">
+                    →
+                </span>
+
+            </a>
+
+
+            <a
+                href="applications.html#commercial"
+                class="app-card reveal">
+
+                Commercial
+
+                <span class="arrow">
+                    →
+                </span>
+
+            </a>
+
+
+            <a
+                href="applications.html#hospitals"
+                class="app-card reveal">
+
+                Hospitals
+
+                <span class="arrow">
+                    →
+                </span>
+
+            </a>
+
+
+            <a
+                href="applications.html#hotels"
+                class="app-card reveal">
+
+                Hotels
+
+                <span class="arrow">
+                    →
+                </span>
+
+            </a>
+
+
+            <a
+                href="applications.html#malls"
+                class="app-card reveal">
+
+                Shopping Malls
+
+                <span class="arrow">
+                    →
+                </span>
+
+            </a>
+
+
+            <a
+                href="applications.html#schools"
+                class="app-card reveal">
+
+                Schools
+
+                <span class="arrow">
+                    →
+                </span>
+
+            </a>
+
+
+            <a
+                href="applications.html#warehouses"
+                class="app-card reveal">
+
+                Warehouses
+
+                <span class="arrow">
+                    →
+                </span>
+
+            </a>
+
+
+            <a
+                href="applications.html#fitouts"
+                class="app-card reveal">
+
+                Interior Fit-Outs
+
+                <span class="arrow">
+                    →
+                </span>
+
+            </a>
+
+
+        </div>
+
+
+        <div
+            class="reveal"
+            style="margin-top:30px;text-align:center;">
+
+
+            <a
+                href="applications.html"
+                class="btn btn-outline"
+                style="border-color:var(--line);color:var(--charcoal);">
+
+                See Full Application Guide →
+
+            </a>
+
+
+        </div>
+
+
+    </div>
+
+
+</section>
+
+
+<!-- =========================================================
+     CLIENTS
+     ========================================================= -->
+
+<section
+    class="clients"
+    id="clients">
+
+
+    <div class="wrap">
+
+
+        <div class="section-head reveal">
+
+
+            <div>
+
+
+                <h2>
+                    Trusted on landmark developments
+                </h2>
+
+
+                <p
+                    class="section-sub"
+                    style="margin-bottom:0;color:rgba(250,247,242,.6);">
+
+                    A selection from 125+ projects supplied
+                    for 25+ leading builder groups.
+
+                </p>
+
+
+            </div>
+
+
+            <a
+                href="projects.html"
+                class="btn btn-outline">
+
+                View All 125 Projects →
+
+            </a>
+
+
+        </div>
+
+
+        <div
+            class="reveal"
+            style="overflow-x:auto;">
+
+
+            <table class="projects">
+
+
+                <thead>
+
+                    <tr>
+
+                        <th>
+                            Builder
+                        </th>
+
+                        <th>
+                            Project
+                        </th>
+
+                        <th>
+                            Location
+                        </th>
+
+                    </tr>
+
+                </thead>
+
+
+                <tbody>
+
+
+                    <tr>
+
+                        <td>
+                            Lodha Group
+                        </td>
+
+                        <td>
+                            Lodha Upper Thane Township
+                        </td>
+
+                        <td>
+                            Anjur, Thane
+                        </td>
+
+                    </tr>
+
+
+                    <tr>
+
+                        <td>
+                            Lodha Group
+                        </td>
+
+                        <td>
+                            Lodha Vista
+                        </td>
+
+                        <td>
+                            Lower Parel, Mumbai
+                        </td>
+
+                    </tr>
+
+
+                    <tr>
+
+                        <td>
+                            Prestige Group
+                        </td>
+
+                        <td>
+                            Prestige City Mulund Township
+                        </td>
+
+                        <td>
+                            Mulund West, Mumbai
+                        </td>
+
+                    </tr>
+
+
+                    <tr>
+
+                        <td>
+                            Godrej Properties
+                        </td>
+
+                        <td>
+                            Godrej Park Springs
+                        </td>
+
+                        <td>
+                            Manjari Khurd, Pune
+                        </td>
+
+                    </tr>
+
+
+                    <tr>
+
+                        <td>
+                            Adani Group
+                        </td>
+
+                        <td>
+                            Adani The Views
+                        </td>
+
+                        <td>
+                            Ghatkopar, Mumbai
+                        </td>
+
+                    </tr>
+
+
+                    <tr>
+
+                        <td>
+                            Kalpataru Group
+                        </td>
+
+                        <td>
+                            Kalpataru Magnus
+                        </td>
+
+                        <td>
+                            Bandra East, Mumbai
+                        </td>
+
+                    </tr>
+
+
+                    <tr>
+
+                        <td>
+                            Shapoorji
+                        </td>
+
+                        <td>
+                            Shapoorji Pallonji Vicinia
+                        </td>
+
+                        <td>
+                            Chandivali, Mumbai
+                        </td>
+
+                    </tr>
+
+
+                    <tr>
+
+                        <td>
+                            Piramal Group
+                        </td>
+
+                        <td>
+                            Piramal Vaikunth
+                        </td>
+
+                        <td>
+                            Balkum, Thane West
+                        </td>
+
+                    </tr>
+
+
+                    <tr>
+
+                        <td>
+                            VTP Realty
+                        </td>
+
+                        <td>
+                            VTP Solitaire Baner
+                        </td>
+
+                        <td>
+                            Baner, Pune
+                        </td>
+
+                    </tr>
+
+
+                    <tr>
+
+                        <td>
+                            Ruparel Group
+                        </td>
+
+                        <td>
+                            Ruparel Skygreens
+                        </td>
+
+                        <td>
+                            Kandivali West, Mumbai
+                        </td>
+
+                    </tr>
+
+
+                </tbody>
+
+
+            </table>
+
+
+        </div>
+
+
+        <p class="client-note">
+
+            + 115 more projects across Lodha, Kanakia, Dosti,
+            Puranik, Raheja, Kabra, Siddha, Runwal, JP Infra
+            and Vilas Javdekar developments.
+
+        </p>
+
+
+    </div>
+
+
+</section>
+
+
+<!-- =========================================================
+     CONTACT
+     ========================================================= -->
+
+<section
+    class="contact"
+    id="contact">
+
+
+    <div class="wrap contact-grid">
+
+
+        <div class="reveal">
+
+
+            <div class="eyebrow">
+
+                Get In Touch
+
+            </div>
+
+
+            <h2
+                style="font-size:clamp(28px,3.4vw,38px);margin-bottom:26px;">
+
+                Talk to our technical team
+
+            </h2>
+
+
+            <ul class="contact-info">
+
+
+                <li>
+
+
+                    <span class="ic">
+                        ◎
+                    </span>
+
+
+                    <div>
+
+                        <h4>
+                            Registered Office
+                        </h4>
+
+                        <p>
+
+                            504, B Wing, Lodha Supremus II,
+                            Road No. 22, Wagle Estate,
+                            Thane (West) – 400604,
+                            Maharashtra, India
+
+                        </p>
+
+                    </div>
+
+
+                </li>
+
+
+                <li>
+
+
+                    <span class="ic">
+                        ☎
+                    </span>
+
+
+                    <div>
+
+                        <h4>
+                            Phone
+                        </h4>
+
+                        <p>
+                            +91 90046 53752 · 022-49719530
+                        </p>
+
+                    </div>
+
+
+                </li>
+
+
+                <li>
+
+
+                    <span class="ic">
+                        ✉
+                    </span>
+
+
+                    <div>
+
+                        <h4>
+                            Email
+                        </h4>
+
+                        <p>
+                            elephantgypproduct@ymail.com
+                        </p>
+
+                    </div>
+
+
+                </li>
+
+
+                <li>
+
+
+                    <span class="ic">
+                        ⚙
+                    </span>
+
+
+                    <div>
+
+                        <h4>
+                            Factory
+                        </h4>
+
+                        <p>
+
+                            Sarah Jodki, Khari Charanan,
+                            Sri Kolayat, Bikaner – 334401,
+                            Rajasthan
+
+                        </p>
+
+                    </div>
+
+
+                </li>
+
+
+            </ul>
+
+
+        </div>
+
+
+        <form
+            class="quote reveal"
+            onsubmit="event.preventDefault();this.querySelector('.status').textContent='Thanks — our team will reach out shortly.';">
+
+            <div class="row">
+
+
+                <div>
+
+                    <label>
+                        Full Name
+                    </label>
+
+                    <input
+                        type="text"
+                        required
+                        placeholder="Your name"
+                    >
+
+                </div>
+
+
+                <div>
+
+                    <label>
+                        Phone
+                    </label>
+
+                    <input
+                        type="tel"
+                        required
+                        placeholder="+91"
+                    >
+
+                </div>
+
+
+            </div>
+
+
+            <div class="row">
+
+
+                <div>
+
+                    <label>
+                        Email
+                    </label>
+
+                    <input
+                        type="email"
+                        required
+                        placeholder="you@company.com"
+                    >
+
+                </div>
+
+
+                <div>
+
+                    <label>
+                        Product Interest
+                    </label>
+
+
+                    <select>
+
+                        <option>
+                            Single Coat N1
+                        </option>
+
+                        <option>
+                            Single Coat N1 Plus
+                        </option>
+
+                        <option>
+                            Single Coat Unique N2
+                        </option>
+
+                        <option>
+                            EGP Bond Plus
+                        </option>
+
+                        <option>
+                            Dealer Enquiry
+                        </option>
+
+                    </select>
+
+
+                </div>
+
+
+            </div>
+
+
+            <label>
+                Message
+            </label>
+
+
+            <textarea
+                rows="4"
+                placeholder="Tell us about your project"></textarea>
+
+
+            <button
+                type="submit"
+                class="btn btn-primary">
+
+                Send Enquiry
+
+            </button>
+
+
+            <p
+                class="status"
+                style="margin-top:14px;font-size:13px;color:var(--rust);">
+            </p>
+
+
+        </form>
+
+
+    </div>
+
+
+</section>
+
+
+<!-- =========================================================
+     FOOTER
+     ========================================================= -->
+
+<footer>
+
+
+    <div class="wrap">
+
+
+        <div class="footer-grid">
+
+
+            <div>
+
+
+                <div class="flogo">
+
+
+                    <img
+                        src="assets/img/logo.png"
+                        alt="Elephant Gypsum Logo"
+                        class="logo-mark"
+                    >
+
+
+                    Elephant Gypsum
+
+
+                </div>
+
+
+                <p class="desc">
+
+                    ISO 9001 &amp; 14001 certified manufacturer
+                    of gypsum plaster and bonding agents,
+                    supplied to 125+ landmark developments
+                    across India.
+
+                </p>
+
+
+            </div>
+
+
+            <div>
+
+
+                <h4>
+                    Company
+                </h4>
+
+
+                <ul>
+
+                    <li>
+                        <a href="about.html">
+                            About Us
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="applications.html">
+                            Applications
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="certifications.html">
+                            Certifications
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="projects.html">
+                            Projects
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="contact.html">
+                            Contact
+                        </a>
+                    </li>
+
+                </ul>
+
+
+            </div>
+
+
+            <div>
+
+
+                <h4>
+                    Products
+                </h4>
+
+
+                <ul>
+
+                    <li>
+                        <a href="products.html">
+                            Single Coat N1
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="products.html">
+                            Single Coat N1 Plus
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="products.html">
+                            Single Coat Unique N2
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="products.html">
+                            EGP Bond Plus
+                        </a>
+                    </li>
+
+                </ul>
+
+
+            </div>
+
+
+            <div>
+
+
+                <h4>
+                    Contact
+                </h4>
+
+
+                <ul>
+
+                    <li>
+                        +91 90046 53752
+                    </li>
+
+                    <li>
+                        elephantgypproduct@ymail.com
+                    </li>
+
+                    <li>
+                        Thane (W), Maharashtra
+                    </li>
+
+                </ul>
+
+
+            </div>
+
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+
+            <span>
+
+                © 2026 Elephant Gypsum Pvt. Ltd.
+                All rights reserved.
+
+            </span>
+
+
+            <span>
+
+                Privacy Policy · Terms of Service
+
+            </span>
+
+
+        </div>
+
+
+    </div>
+
+
+</footer>
+
+
+<!-- =========================================================
+     FLOATING BUTTONS
+     ========================================================= -->
+
+<div class="float-btns">
+
+
+    <a
+        class="fbtn wa"
+        href="https://wa.me/919004653752"
+        target="_blank"
+        aria-label="WhatsApp">
+
+        ✆
+
+    </a>
+
+
+    <button
+        class="fbtn top"
+        id="topBtn"
+        aria-label="Back to top">
+
+        ↑
+
+    </button>
+
+
+</div>
+
+
+<!-- =========================================================
+     JAVASCRIPT
+     ========================================================= -->
+
+<script src="main.js"></script>
+
+
+</body>
+</html>
